@@ -31,6 +31,7 @@
 }
 
 .upload-portal {
+    position: relative;
     display: none;
     flex-direction: column;
     width: 600px;
@@ -90,6 +91,7 @@
 }
 
 #upload-exit {
+    position: absolute;
     width: 20px;
     color: var(--main-font);
     text-decoration: none;
@@ -103,6 +105,7 @@
 #upload-previous-btn {
     display: none;
     transform: scale(0);
+    margin: 30px auto;
 }
 
 .upload-form {
@@ -111,6 +114,7 @@
     /* justify-content: center; */
     height: 100%;
     overflow-y: scroll;
+    padding: 30px 0px;
 }
 
 #cover-upload {
@@ -209,8 +213,8 @@
 
     .meta-upload {
         width: 90vw;
-        padding-top: 40px;
     }
+
     #sub-recent-tray {
         height: 150px;
     }
