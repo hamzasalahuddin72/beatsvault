@@ -248,11 +248,9 @@ if (isset($_SESSION["user_id"]) && ($now - $_SESSION["start"]) < $_SESSION["dura
                                     <img src="css/misc/img/audio-upload.png" alt="Image could not load">
                                     <span id="audio-upload-span">Upload beat</span>
                                 </label>
-                                <br>
                             </div>
                         </form>
                         <button class="submit" id="upload-next-btn">Next</button>
-                        <br>
                     </div>
 
                     <a id="upload-button" class="album-cover-href">
