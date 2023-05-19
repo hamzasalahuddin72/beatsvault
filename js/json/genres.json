@@ -1,0 +1,371 @@
+[
+    {
+        "genre": "Acapella"
+    },
+    {
+        "genre": "Acid"
+    },
+    {
+        "genre": "Acid Jazz"
+    },
+    {
+        "genre": "Acid Punk"
+    },
+    {
+        "genre": "Acoustic"
+    },
+    {
+        "genre": "Alternative"
+    },
+    {
+        "genre": "AlternRock"
+    },
+    {
+        "genre": "Ambient"
+    },
+    {
+        "genre": "Ballad"
+    },
+    {
+        "genre": "Bass"
+    },
+    {
+        "genre": "Bebob"
+    },
+    {
+        "genre": "Bluegrass"
+    },
+    {
+        "genre": "Blues"
+    },
+    {
+        "genre": "Cabaret"
+    },
+    {
+        "genre": "Celtic"
+    },
+    {
+        "genre": "Chamber Music"
+    },
+    {
+        "genre": "Chanson"
+    },
+    {
+        "genre": "Chorus"
+    },
+    {
+        "genre": "Christian Rap"
+    },
+    {
+        "genre": "Classic Rock"
+    },
+    {
+        "genre": "Classical"
+    },
+    {
+        "genre": "Club"
+    },
+    {
+        "genre": "Comedy"
+    },
+    {
+        "genre": "Country"
+    },
+    {
+        "genre": "Cult"
+    },
+    {
+        "genre": "Dance"
+    },
+    {
+        "genre": "Dance Hall"
+    },
+    {
+        "genre": "Darkwave"
+    },
+    {
+        "genre": "Death Metal"
+    },
+    {
+        "genre": "Disco"
+    },
+    {
+        "genre": "Dream"
+    },
+    {
+        "genre": "Drum Solo"
+    },
+    {
+        "genre": "Duet"
+    },
+    {
+        "genre": "Easy Listening"
+    },
+    {
+        "genre": "Electronic"
+    },
+    {
+        "genre": "Ethnic"
+    },
+    {
+        "genre": "Euro-House"
+    },
+    {
+        "genre": "Euro-Techno"
+    },
+    {
+        "genre": "Eurodance"
+    },
+    {
+        "genre": "Fast Fusion"
+    },
+    {
+        "genre": "Folk"
+    },
+    {
+        "genre": "Folk-Rock"
+    },
+    {
+        "genre": "Folklore"
+    },
+    {
+        "genre": "Freestyle"
+    },
+    {
+        "genre": "Funk"
+    },
+    {
+        "genre": "Fusion"
+    },
+    {
+        "genre": "Game"
+    },
+    {
+        "genre": "Gangsta"
+    },
+    {
+        "genre": "Gospel"
+    },
+    {
+        "genre": "Gothic"
+    },
+    {
+        "genre": "Gothic Rock"
+    },
+    {
+        "genre": "Grunge"
+    },
+    {
+        "genre": "Hard Rock"
+    },
+    {
+        "genre": "Hip-Hop"
+    },
+    {
+        "genre": "House"
+    },
+    {
+        "genre": "Humour"
+    },
+    {
+        "genre": "Industrial"
+    },
+    {
+        "genre": "Instrumental"
+    },
+    {
+        "genre": "Instrumental Pop"
+    },
+    {
+        "genre": "Instrumental Rock"
+    },
+    {
+        "genre": "Jazz"
+    },
+    {
+        "genre": "Jazz+Funk"
+    },
+    {
+        "genre": "Jungle"
+    },
+    {
+        "genre": "K-Pop"
+    },
+    {
+        "genre": "Latin"
+    },
+    {
+        "genre": "Lo-Fi"
+    },
+    {
+        "genre": "Meditative"
+    },
+    {
+        "genre": "Metal"
+    },
+    {
+        "genre": "Musical"
+    },
+    {
+        "genre": "National Folk"
+    },
+    {
+        "genre": "Native American"
+    },
+    {
+        "genre": "New Age"
+    },
+    {
+        "genre": "New Wave"
+    },
+    {
+        "genre": "Noise"
+    },
+    {
+        "genre": "Oldies"
+    },
+    {
+        "genre": "Opera"
+    },
+    {
+        "genre": "Other"
+    },
+    {
+        "genre": "Polka"
+    },
+    {
+        "genre": "Pop"
+    },
+    {
+        "genre": "Pop-Folk"
+    },
+    {
+        "genre": "Pop/Funk"
+    },
+    {
+        "genre": "Porn Groove"
+    },
+    {
+        "genre": "Power Ballad"
+    },
+    {
+        "genre": "Pranks"
+    },
+    {
+        "genre": "Primus"
+    },
+    {
+        "genre": "Progressive Rock"
+    },
+    {
+        "genre": "Psychadelic"
+    },
+    {
+        "genre": "Psychedelic Rock"
+    },
+    {
+        "genre": "Punk"
+    },
+    {
+        "genre": "Punk Rock"
+    },
+    {
+        "genre": "R&B"
+    },
+    {
+        "genre": "Rap"
+    },
+    {
+        "genre": "Rave"
+    },
+    {
+        "genre": "Reggae"
+    },
+    {
+        "genre": "Retro"
+    },
+    {
+        "genre": "Revival"
+    },
+    {
+        "genre": "Rhythmic Soul"
+    },
+    {
+        "genre": "Rock"
+    },
+    {
+        "genre": "Rock & Roll"
+    },
+    {
+        "genre": "Samba"
+    },
+    {
+        "genre": "Satire"
+    },
+    {
+        "genre": "Showtunes"
+    },
+    {
+        "genre": "Ska"
+    },
+    {
+        "genre": "Slow Jam"
+    },
+    {
+        "genre": "Slow Rock"
+    },
+    {
+        "genre": "Sonata"
+    },
+    {
+        "genre": "Soul"
+    },
+    {
+        "genre": "Sound Clip"
+    },
+    {
+        "genre": "Soundtrack"
+    },
+    {
+        "genre": "Southern Rock"
+    },
+    {
+        "genre": "Space"
+    },
+    {
+        "genre": "Speech"
+    },
+    {
+        "genre": "Swing"
+    },
+    {
+        "genre": "Symphonic Rock"
+    },
+    {
+        "genre": "Symphony"
+    },
+    {
+        "genre": "Tango"
+    },
+    {
+        "genre": "Techno"
+    },
+    {
+        "genre": "Techno-Industrial"
+    },
+    {
+        "genre": "Top 40"
+    },
+    {
+        "genre": "Trailer"
+    },
+    {
+        "genre": "Trance"
+    },
+    {
+        "genre": "Tribal"
+    },
+    {
+        "genre": "Vocal"
+    }
+]

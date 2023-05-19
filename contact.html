@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main-style.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <title>BEATSVAULT</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="home.php"><h1>BEATSVAULT</h1></a></div>
+        <div class="navbtns">
+            <a class="navbtn" href="beats.html"><h5>Beats</h5></a>
+            <a class="navbtn" href="resources.html"><h5>Resources</h5></a>
+            <a class="navbtn" href="contact.html"><h5>Contact</h5></a>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <input id="beatDoc" type="text" placeholder="beatDoc">
+        <input id="name" type="text" placeholder="name">
+        <input id="genre" type="text" placeholder="genre">
+        <input id="bpm" type="text" placeholder="bpm">
+        <input id="key" type="text" placeholder="key">
+        <input id="description" type="text" placeholder="description">
+        <input id="coverUrl" type="text" placeholder="coverUrl">
+        <input id="dateReleased" type="date" placeholder="dateReleased">
+        <input id="producedBy" type="text" placeholder="producedBy" value="hmzasaleh">
+        <select id="vsts" multiple>
+            <option value="Omnisphere">Omnisphere</option>
+            <option value="Nexus">Nexus</option>
+            <option value="ElectraX">ElectraX</option>
+            <option value="Keyscape">Keyscape</option>
+            <option value="Dune">Dune</option>
+            <option value="Serum">Serum</option>
+            <option value="Addictive Keys">Addictive Keys</option>
+            <option value="Gross Beat">Gross Beat</option>
+            <option value="Kontakt">Kontakt</option>
+            <option value="AGF2">AGF2</option>
+        </select>
+        <span id="vsts-selected"></span>
+        <button id="submit">Submit</button>
+    </div>
+
+    <div class="audio-player">
+        <div class="controls">
+            <div class="btn">
+                <img class="btn-img" src="/css/misc/img/previous-track.png">
+            </div>
+            <div class="btn">
+                <img class="btn-img" id="play-btn" onclick="playTrack()" src="/css/misc/img/play.png">
+                <img class="btn-img" id="pause-btn" onclick="pauseTrack()" src="/css/misc/img/pause.png">
+            </div>
+            <div class="btn">
+                <img class="btn-img" src="/css/misc/img/next-track.png">
+            </div>
+        </div>
+        <div class="media-info">
+            <div class="info-display">
+                info
+            </div>
+        </div>
+    </div>
+    <div class="media-tools">
+        <div class="btn">
+            <img class="btn-img" id="compact-view-btn" onclick="compactviewPlayer()" src="/css/misc/img/compact-view.png">
+            <img class="btn-img" id="long-view-btn" onclick="longviewPlayer()" src="/css/misc/img/long-view.png">
+        </div>
+    </div>
+    <!-- <script src="/js/function.js"></script> -->
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script type="module" src="/js/firebase-update.js"></script>
+</body>
+</html>

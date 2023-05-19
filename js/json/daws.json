@@ -1,0 +1,46 @@
+[
+    {
+        "logo_url": "/css/misc/img/daw-logos/ableton-live-logo.png",
+        "name": "Ableton Live"
+    },
+    {
+        "logo_url": "/css/misc/img/daw-logos/bitwig-studio-logo.png",
+        "name": "Bitwig Studio"
+    },
+    {
+        "logo_url": "/css/misc/img/daw-logos/cakewalk-logo.png",
+        "name": "Cakewalk"
+    },
+    {
+        "logo_url": "/css/misc/img/daw-logos/fl-studio-logo.png",
+        "name": "FL Studio"
+    },
+    {
+        "logo_url": "/css/misc/img/daw-logos/garageband-logo.png",
+        "name": "GarageBand"
+    },
+    {
+        "logo_url": "/css/misc/img/daw-logos/logic-pro-logo.png",
+        "name": "Logic Pro"
+    },
+    {
+        "logo_url": "/css/misc/img/daw-logos/pro-tools-logo.png",
+        "name": "Pro Tools"
+    },
+    {
+        "logo_url": "/css/misc/img/daw-logos/reaper-logo.png",
+        "name": "Reaper"
+    },
+    {
+        "logo_url": "/css/misc/img/daw-logos/reason-logo.png",
+        "name": "Reason"
+    },
+    {
+        "logo_url": "/css/misc/img/daw-logos/cubase-logo.png",
+        "name": "Steinberg Cubase"
+    },
+    {
+        "logo_url": "/css/misc/img/daw-logos/studio-one-logo.png",
+        "name": "Studio One"
+    }
+]
