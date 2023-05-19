@@ -1,0 +1,43 @@
+@import url("colors.css");
+
+#wrapper {
+    flex-direction: row;
+    margin-left: 0px;
+}
+
+.vault-directory {
+    position: relative;
+    text-align: left;
+    width: 150px;
+    height: 100vh;
+    background-color: var(--contrast-panel);
+    color: var(--blue);
+    padding: 10px;
+    border: solid var(--blue) 2px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 20px 1px rgba(69, 111, 167, 0.5);
+}
+
+.dir-toggle-btns {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 18px;
+}
+
+#dir-toggle-open {
+    display: none;
+}
+
+.directory {
+    color: var(--blue);
+    margin: 10px;
+    font-size: small;
+    width: auto;
+}
+
+.directory:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

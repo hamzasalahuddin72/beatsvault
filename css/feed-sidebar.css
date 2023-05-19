@@ -1,0 +1,253 @@
+@import url("colors.css");
+
+.options-popup {
+    position: fixed;
+    bottom: 88px;
+    right: -200px;
+    color: white;
+    border: solid 1px var(--blue);
+    background-color: var(--contrast-panel);
+    box-shadow: var(--main-shadow);
+}
+
+.side-bar {
+    cursor: default;
+    display: flex;
+    flex-direction: row;
+    max-height: 494px;
+}
+
+#home-messenger {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 494px;
+    overflow-y: scroll;
+}
+
+#messenger-body {
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#feed-messenger-head {
+    display: flex;
+    flex-direction: row;
+    color: var(--blue);
+}
+
+.head-btn {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 0px;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.options-popup .head-btn {
+    padding: 10px;
+}
+
+.head-btn:hover {
+    cursor: default;
+}
+
+.head-btn:hover {
+    color: var(--main-font);
+    background-color: var(--panel-bg-main);
+}
+
+.active-head {
+    background-color: var(--blue);
+}
+
+.active-head:hover {
+    background-color: var(--blue);
+}
+
+.active-head .icon-mask {
+    background: white;
+}
+
+.msg-search-bar {
+    display: flex;
+    justify-content: center;
+}
+
+#msg-search-bar {
+    width: 100%;
+    border: none;
+    box-shadow: none;
+}
+
+.chat-active {
+    border-right: solid var(--blue) 2px;
+    background-color: var(--panel-bg-main);
+}
+
+.msg-user-profile-pic {
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1/1;
+}
+
+.user-profile-pic {
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1/1;
+}
+
+.msg-sub-overview {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.msg-last-span {
+    font-size: 0.7rem;
+    text-align: left;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.msg-unseen {
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+
+.msg-seen {
+    border-right: dashed var(--blue) 4px;
+}
+
+.msg-time-received {
+    color: var(--blue);
+    font-style: italic;
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+/* chat view */
+
+.chat-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: var(--main-font);
+    width: 0px;
+    height: 494px;
+    overflow: hidden;
+}
+
+.chat-container-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    height: 20px;
+    top: -20px;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    box-shadow: var(--high-shadow);
+}
+
+.chat-container-body {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 15px;
+    padding: 15px;
+    margin-bottom: 80px;
+    overflow-y: scroll;
+    height: 393px;
+    background-color: transparent;
+    z-index: 9;
+}
+
+.from-chat-piece {
+    text-align: end;
+    color: var(--blue);
+    padding-right: 10px;
+}
+
+.to-chat-piece {
+    text-align: start;
+    border-left: solid var(--blue) 4px;
+    padding-left: 10px;
+}
+
+.from_user_wrapper {
+    display: flex;
+    justify-content: end;
+}
+
+.chat-container-foot {
+    position: relative;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    box-sizing: border-box;
+    min-height: 70px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: solid var(--blue) 1px;
+    border-left: solid var(--blue) 1px;
+}
+
+.message-input, .short-message-input {
+    border: none;
+    height: 70px;
+    flex: 6;
+    box-shadow: none;
+    resize: none;
+    overflow-y: scroll;
+}
+
+.message-input:focus, .short-message-input:focus {
+    outline: none;
+    border: none;
+    /* border-top: solid var(--blue) 1px; */
+}
+
+.message-send-btn, .short-message-send-btn {
+    background-color: var(--blue);
+    /* width: 0px; */
+    flex: 0;
+    margin: 0;
+    padding: 0px;
+    box-shadow: none;
+    overflow: hidden;
+}
+
+.user-list-body {
+    max-height: 280px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 300px;
+}
+
+.user-list-body .container-row {
+    padding: 0px;
+    padding-right: 15px;
+    gap: 15px;
+}
+
+.user-list {
+    max-height: 280px;
+}
+
+.typing-indicator {
+    color: darkgray;
+    font-style: italic;
+    padding-left: 10px;
+    text-align: left;
+}

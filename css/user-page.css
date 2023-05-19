@@ -1,0 +1,154 @@
+@font-face {
+    font-family: customFont;
+    src: url(misc/font/normandybeach3dital.ttf);
+}
+
+@import url("colors.css");
+
+#profile-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    width: 100%;
+    /* min-width: 50%;
+    max-width: 900px; */
+}
+
+#pw-bg-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: solid var(--blue) 1px;
+    padding: 40px;
+    margin: 0 auto;
+    width: inherit;
+    /* min-width: 50%;
+    max-width: 1000px; */
+    box-sizing: border-box;
+    background-color: var(--img-bg-overlay);
+    box-shadow: 0 2.8px 2.2px rgba(69, 111, 167, 0.034),
+        0 6.7px 5.3px rgba(69, 111, 167, 0.048),
+        0 12.5px 10px rgba(69, 111, 167, 0.06),
+        0 22.3px 17.9px rgba(69, 111, 167, 0.072),
+        0 41.8px 33.4px rgba(69, 111, 167, 0.086),
+        0 100px 80px rgba(69, 111, 167, 0.12);
+}
+
+#sub-profile-wrapper-right {
+    position: relative;
+    cursor: default;
+    color: var(--main-font);
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+/* #user-profile-feed {
+    min-width: 50%;
+    max-width: 900px;
+    margin-top: 20px;
+    margin: 50px auto;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+} */
+
+.chat-container-popup {
+    position: absolute;
+    display: none;
+    flex-direction: row;
+    background-color: black;
+    background-color: black;
+    top: 40px;
+    width: 300px;
+    border: solid 1px var(--blue);
+}
+
+.span-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.sel-type {
+    color: var(--main-font);
+    text-decoration: none;
+    text-align: start;
+}
+
+#sel-username,
+#sel-country {
+    font-size: 1.2rem;
+}
+
+#profile-pic-frame {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+#profile-pic-frame:hover {
+    transform: scale(0.95);
+}
+
+label {
+    position: relative;
+    cursor: pointer;
+    text-align: end;
+}
+
+label:hover .tooltip{
+    visibility: visible;
+    opacity: 1;
+    color: var(--main-font);
+    right: 0px;
+    z-index: 5;
+}
+
+.tooltip {
+    right: 0px;
+}
+
+#pp-bg-update-label {
+    position: absolute;
+    bottom: 0;
+}
+
+#pp-bg-update-label:hover {
+    color: var(--main-font);
+}
+
+.is-following {
+    background-color: var(--contrast-panel);
+    border: solid 1px var(--blue);
+    color: var(--blue);
+}
+
+.genre-tray {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.genre-item a {
+    color: var(--main-font);
+    line-height: 0.8rem;
+    font-weight: 100;
+}
+
+.genre-item:hover a {
+    color: var(--blue);
+}

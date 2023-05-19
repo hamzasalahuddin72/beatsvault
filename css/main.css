@@ -1,0 +1,307 @@
+@import url("colors.css");
+
+html {
+    background-color: var(--contrast-panel);
+}
+
+#top-wrapper {
+    position: sticky;
+    top: -210.5px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+#user-recent-tray {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 47px;
+    background-color: var(--bg-frost-gray);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: solid darkgrey 0.5px;
+    padding-bottom: 10px;
+}
+
+.tracklist-options {
+    position: sticky;
+    top: 47px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--blue);
+    background-color: var(--bg-frost-gray);
+    gap: 10px;
+    z-index: 1;
+    padding: 5px;
+}
+
+.custom-tray {
+    /* background-color: rgb(0, 0, 0, 0.6); */
+    box-shadow: inset 99999px 0px rgba(0, 0, 0, 0.6);
+}
+
+#sub-recent-tray {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+}
+
+.recent-tracks {
+    width: calc(100vw - 200px);
+    overflow-y: scroll;
+    display: flex;
+}
+
+.recent-tracks::-webkit-scrollbar {
+    display: none;
+}
+
+.message-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.album-cover {
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+    position: relative;
+    overflow: visible;
+    width: 50px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    transform: skewY(-7deg);
+    -webkit-transform: skewY(-7deg);
+    -moz-transform: skewY(-7deg);
+    -ms-transform: skewY(-7deg);
+    -o-transform: skewY(-7deg);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.album-cover:hover {
+    width: 200px;
+    transform: skewY(0deg);
+    -webkit-transform: skewY(0deg);
+    -moz-transform: skewY(0deg);
+    -ms-transform: skewY(0deg);
+    -o-transform: skewY(0deg);
+}
+
+.album-cover:hover .play-popup {
+    background-color: var(--img-bg-overlay);
+    border-radius: 10px;
+}
+
+.album-cover-img {
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.more-tracks {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    background-color: var(--blackTransparent);
+    border-radius: 10px;
+    border: solid var(--blue) 2px;
+    box-sizing: border-box;
+}
+
+.album-cover-href {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--blue);
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    height: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#upload-button:hover #upload-icon {
+    filter: brightness(0) invert(1);
+}
+
+.play-popup {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.album-cover:hover .play-popup {
+    background-color: var(--img-bg-overlay);
+    opacity: 1;
+    /* box-shadow: inset 0 -50px 10px -10px rgba(0, 0, 0, 0.5); */
+}
+
+.popup-playing {
+    background-color: var(--img-bg-overlay);
+    opacity: 1;
+}
+
+.album-cover span {
+    cursor: pointer;
+    position: absolute;
+    font-weight: bold;
+    bottom: 0;
+    font-size: 0.8rem;
+    color: var(--main-font);
+    padding: 10px;
+    max-width: 20rem;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    overflow: hidden;
+}
+
+#wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: calc(100vh - 500px);
+}
+
+.sub-wrapper {
+    position: relative;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 30px;
+}
+
+#aa-wrapper {
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    border: solid var(--blue) 1px;
+    background-color: var(--contrast-panel);
+    box-sizing: content-box;
+    box-shadow: var(--main-shadow);
+}
+
+.container-row {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    color: var(--main-font);
+    height: 80px;
+    background-color: black;
+    padding: 10px;
+    border-bottom: solid rgba(169, 169, 169, 0.2) 1px;
+}
+
+.container-row:hover {
+    cursor: pointer;
+    background-color: var(--panel-bg-main);
+}
+
+.container-row:active {
+    transform: scale(1.03);
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.container-head {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.user-list .container-head {
+    padding: 10px;
+    background-color: var(--blue);
+}
+
+.sub-wrapper-sticky {
+    position: sticky;
+    top: 77px;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    flex-wrap: wrap;
+    width: min-content;
+    height: min-content;
+    padding-top: 30px;
+}
+
+.container-ln {
+    text-align: left;
+    width: min-content;
+    color: var(--blue);
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.user-list-body .container-row .profile-href {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.user-overview {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

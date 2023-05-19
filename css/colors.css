@@ -1,0 +1,15 @@
+:root {
+    --blackTransparent: rgba(0, 0, 0, 0.85);
+    --bg-frost-gray: rgba(102, 102, 102, 0.254);
+    --blue: rgb(69, 111, 167);
+    /* --blue: rgb(159, 53, 53); */
+    --lightblue: rgb(69, 111, 167, 0.7);
+    --main-shadow: 0px 0px 5px var(--blue);
+    --high-shadow: 0px 0px 50px var(--blue);
+    --sub-panel: white;
+    --panel-bg-main: rgb(28, 28, 28);
+    --contrast-panel: black;
+    --main-font: white;
+    --inverted-font: black;
+    --img-bg-overlay: rgb(0, 0, 0, 0.8)
+}

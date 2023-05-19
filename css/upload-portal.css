@@ -1,0 +1,254 @@
+@import url("colors.css");
+
+.lb-test {
+    display: none;
+    background-color: var(--contrast-panel);
+}
+
+.upload-tracks {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-sizing: border-box;
+    height: 200px;
+    z-index: 2;
+    overflow: hidden;
+}
+
+#upload-icon {
+    margin: 0 auto 0 auto;
+}
+
+#upload-button:hover {
+    background-color: var(--blue);
+}
+
+.upload-portal {
+    display: none;
+    flex-direction: column;
+    width: 600px;
+}
+
+.upload-portal-fx-before {
+    width: 200px;
+    height: 200px;
+    background-color: var(--panel-bg-main);
+    transform: skewY(7deg);
+    -webkit-transform: skewY(7deg);
+    -moz-transform: skewY(7deg);
+    -ms-transform: skewY(7deg);
+    -o-transform: skewY(7deg);
+}
+
+.upload-portal-fx-before:hover {
+    width: 200px;
+    transform: skewY(0deg);
+    -webkit-transform: skewY(0deg);
+    -moz-transform: skewY(0deg);
+    -ms-transform: skewY(0deg);
+    -o-transform: skewY(0deg);
+}
+
+.upload-portal-fx-after {
+    position: absolute;
+    right: 0;
+    width: 600px;
+    height: auto;
+    border: solid var(--blue) 2px;
+    box-shadow: 0px 1px 300px 1px rgba(69, 111, 167, 0.5);
+    transform: skewY(0deg);
+    -webkit-transform: skewY(0deg);
+    -moz-transform: skewY(0deg);
+    -ms-transform: skewY(0deg);
+    -o-transform: skewY(0deg);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(42deg, rgba(0, 0, 0, 1) 13%, rgba(22, 39, 84, 1) 17%, rgba(0, 0, 0, 1) 22%, rgba(0, 0, 0, 1) 69%, rgba(69, 96, 167, 1) 92%, rgba(69, 96, 167, 0.702140231092437) 100%);
+}
+
+.file {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: auto;
+}
+
+.file span {
+    width: auto;
+    border: solid var(--blue) 1px;
+    /* border-bottom: 0px; */
+    color: var(--blue);
+    background-color: var(--contrast-panel);
+    margin: 20px 0px -1px 0px;
+    padding: 5px;
+}
+
+#upload-exit {
+    width: 20px;
+    color: var(--main-font);
+    text-decoration: none;
+    background-color: var(--blue);
+    border-radius: 100px;
+    margin: 20px;
+    padding: 5px;
+}
+
+#upload-next-btn,
+#upload-previous-btn {
+    display: none;
+    transform: scale(0);
+}
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#cover-upload {
+    position: relative;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(11deg, rgba(2, 0, 36, 1) 0%,
+            rgb(255, 242, 96) 0%, rgba(69, 111, 167, 1) 40%,
+            rgba(69, 96, 167, 0.9374343487394958) 84%);
+    background-size: cover;
+    background-position: center;
+}
+
+#cover-preview {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.cover-upload-before {
+    box-shadow: 0px 1px 20px 1px rgba(69, 111, 167, 0.5);
+}
+
+.cover-upload-empty {
+    box-shadow: 0px 1px 60px 1px rgba(255, 0, 0, 0.5);
+}
+
+#cover-upload:hover {
+    box-shadow: 0px 1px 60px 1px rgba(6255, 242, 96, 0.5);
+    transform: scale(0.95);
+    transition: 0.8s ease-in-out;
+}
+
+#audio-upload {
+    position: relative;
+}
+
+#audio-upload img {
+    cursor: pointer;
+    width: 200px;
+    box-shadow: 0px 1px 20px 1px rgba(69, 111, 167, 0.5);
+    border-radius: 200px;
+}
+
+#audio-upload img:hover {
+    box-shadow: 0px 1px 60px 1px rgba(69, 111, 167, 0.8);
+    transform: scale(0.95);
+    transform: rotate(-180deg);
+    transition: 0.8s ease-in-out;
+}
+
+#audio-upload img:active {
+    box-shadow: 0px 1px 200px 1px rgba(235, 59, 59, 0.2);
+    transform: scale(1.05);
+}
+
+#beat-desc {
+    height: 100%;
+}
+
+.error-field {
+    border: dashed 1px red;
+    border-left: solid 15px red;
+}
+
+.status-message {
+    text-align: center;
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+.error-message {
+    font-size: small;
+    border-left: solid var(--blue) 3px;
+    padding: 10px;
+    height: auto;
+    box-shadow: 0px 0px 100px var(--blue);
+}
+
+@media screen and (max-width: 540px) {
+    .upload-portal-fx-after {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 62px;
+        top: 47px;
+        width: auto;
+    }
+
+    .upload-portal {
+        width: 100vw;
+    }
+
+    .meta-upload {
+        width: 90vw;
+        padding-top: 40px;
+    }
+    #sub-recent-tray {
+        height: 150px;
+    }
+
+    .recent-tracks {
+        width: calc(100vw - 150px);
+    }
+
+    .album-cover {
+        width: 25px;
+        height: 150px;
+    }
+
+    .album-cover:hover {
+        width: 150px;
+    }
+
+    .album-cover-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .album-cover-href {
+        width: 150px;
+        font-size: smaller;
+    }
+
+    .upload-portal-fx-before {
+        width: 150px;
+        height: 150px;
+    }
+
+    .upload-portal-fx-before:hover {
+        width: 150px;
+    }
+
+    #upload-icon {
+        width: 25px;
+        height: 25px;
+    }
+}

@@ -1,0 +1,167 @@
+@import url("colors.css");
+
+/* grid layout */
+
+.grid-home-feed-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 250px));
+    overflow-y: scroll;
+    justify-content: center;
+    max-width: 1250px;
+}
+
+.grid-feed-content-card {
+    flex-direction: column;
+    min-width: auto;
+    max-height: 500px;
+}
+
+.grid-feed-album-cover {
+    width: 250px;
+    height: 250px;
+    aspect-ratio: 1/1;
+}
+
+.grid-feed-meta-card {
+    display: flex;
+    flex-direction: column;
+}
+
+/* polaroid view */
+.polaroid-home-feed-content {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.polaroid-feed-content-card {
+    flex-direction: column;
+    flex-basis: 100%;
+    max-height: none;
+}
+
+.polaroid-feed-album-cover {
+    width: inherit;
+    aspect-ratio: 1 / 1;
+}
+
+.polaroid-feed-meta-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.polaroid-sale-options {
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 540px) {
+    .feed-content-card {
+        min-width: calc(100vw - 60px);
+        max-height: 110px;
+        box-sizing: border-box;
+    }
+
+    .grid-home-feed-content {
+        grid-template-columns: repeat(auto-fit, minmax(auto, 150px));
+        justify-content: start;
+        overflow-y: scroll;
+        width: 100vw;
+    }
+
+    .grid-feed-content-card {
+        min-width: auto;
+        max-height: 400px;
+    }
+
+    .grid-feed-album-cover {
+        width: 150px;
+        height: 150px;
+    }
+
+    .feed-content-user-span {
+        font-size: small;
+    }
+
+    .grid-home-feed-content .feed-user-tag {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-feed-content {
+        min-width: calc(100vw - 60px);
+        align-items: normal;
+    }
+
+    .linear-feed-album-cover {
+        width: 110px;
+        height: 110px;
+    }
+
+    .feed-content-card * {
+        font-size: x-small;
+    }
+
+    .grid-feed-options .icon-mask,
+    .grid-sale-options .icon-mask {
+        width: 14px;
+        height: 14px;
+    }
+
+    .polaroid-feed-content-card {
+        max-height: none;
+    }
+
+    .polaroid-feed-content-card .icon-mask {
+        width: 20px;
+        height: 20px;
+    }
+
+    .polaroid-feed-album-cover {
+        width: inherit;
+        height: auto;
+    }
+
+    .track-metadata {
+        margin: 5px;
+    }
+
+    .tm {
+        margin-bottom: 2px;
+    }
+
+    .controls .icon-mask {
+        width: 15px;
+        height: 15px;
+    }
+
+    .audio-player {
+        padding: 2px;
+    }
+
+    #audio-control-panel {
+        padding: 5px 10px;
+        gap: 10px;
+    }
+
+    .controls {
+        gap: 10px;
+    }
+
+    #duration-span {
+        font-size: x-small;
+    }
+
+    .media-player-text {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    #top-wrapper {
+        position: sticky;
+        top: -160.5px;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+    }
+}

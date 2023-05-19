@@ -1,0 +1,157 @@
+@import url("colors.css");
+
+.lb-settings {
+    background-color: black;
+}
+
+.settings-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100vw; */
+    height: calc(100vh - 47px);
+}
+
+.settings-container {
+    position: relative;
+    max-width: 800px;
+    overflow-x: hidden;
+}
+
+.settings-container .head-btn {
+    min-width: 200px;
+}
+
+.settings-body {
+    cursor: default;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.settings-body table {
+    border: none;
+    box-shadow: none;
+    height: fit-content;
+}
+
+.settings-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    overflow: hidden;
+    min-width: 800px;
+    box-sizing: border-box;
+}
+
+.sub-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sp-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.music-preferences {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#sel-country {
+    height: 15px;
+}
+
+.panel-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ug-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.ud-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.daw-item img {
+    width: 40px;
+    height: auto;
+}
+
+.ui-list {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    gap: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 10px;
+}
+
+.instrument-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.instrument-item img {
+    height: 120px;
+}
+
+.panel-item {
+    color: var(--blue);
+}
+
+.panel-value {
+    color: var(--main-font);
+}
+
+.panel-switch {
+	background: linear-gradient(#ffffff 33%,#414751 58%,#837b52,#c5baa1,#c3adaa);
+	border-radius: 0;
+	box-shadow: var(--main-shadow);
+	cursor: pointer;
+	width: 50px;
+	height: 1em;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+    border-radius: 10px;
+}
+
+.panel-switch:checked {
+    outline: none;
+    transform: scaleY(0.7);
+    box-shadow: 0px 0px 20px 8px var(--blue);
+}
+
+.panel-switch:hover {
+    box-shadow: var(--main-shadow);
+}
+
+.settings-panel caption,
+.settings-panel span:not(.ui-list span) {
+    border-left: solid 4px var(--blue);
+    width: fit-content;
+    padding-left: 10px;
+}
