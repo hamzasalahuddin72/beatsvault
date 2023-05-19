@@ -123,6 +123,7 @@ label:hover .tooltip{
 #pp-bg-update-label {
     position: absolute;
     bottom: 0;
+    width: max-content;
 }
 
 #pp-bg-update-label:hover {
