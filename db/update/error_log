@@ -1,0 +1,423 @@
+[05-May-2023 21:13:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 4
+[05-May-2023 21:13:33 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[05-May-2023 21:13:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[05-May-2023 21:13:33 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[05-May-2023 21:13:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[05-May-2023 21:13:33 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 26
+[05-May-2023 21:13:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 26
+[05-May-2023 21:13:33 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_cover.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 32
+[05-May-2023 21:13:33 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phphI80fp&quot; to &quot;../user-directories//userdata/profile_cover.jpg&quot; in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 32
+[05-May-2023 21:13:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 49
+[05-May-2023 21:20:54 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 4
+[05-May-2023 21:20:54 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[05-May-2023 21:20:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[05-May-2023 21:20:54 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[05-May-2023 21:20:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[05-May-2023 21:20:54 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 26
+[05-May-2023 21:20:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 26
+[05-May-2023 21:20:54 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_cover.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 32
+[05-May-2023 21:20:54 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpakcVqn&quot; to &quot;../user-directories//userdata/profile_cover.jpg&quot; in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 32
+[05-May-2023 21:20:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 49
+[05-May-2023 21:20:58 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[05-May-2023 21:20:58 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[05-May-2023 21:20:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[05-May-2023 21:20:58 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[05-May-2023 21:20:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[05-May-2023 21:20:58 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[05-May-2023 21:20:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[05-May-2023 21:20:58 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_pic.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[05-May-2023 21:20:58 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpCiHNmI&quot; to &quot;../user-directories//userdata/profile_pic.jpg&quot; in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[05-May-2023 21:20:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 53
+[05-May-2023 21:54:25 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 4
+[05-May-2023 21:54:25 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[05-May-2023 21:54:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[05-May-2023 21:54:25 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[05-May-2023 21:54:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[05-May-2023 21:54:25 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 26
+[05-May-2023 21:54:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 26
+[05-May-2023 21:54:25 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_cover.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 32
+[05-May-2023 21:54:25 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpqfYjsT&quot; to &quot;../user-directories//userdata/profile_cover.jpg&quot; in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 32
+[05-May-2023 21:54:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 49
+[05-May-2023 21:55:14 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[05-May-2023 21:55:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[05-May-2023 21:55:14 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[05-May-2023 21:55:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[05-May-2023 21:55:14 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 26
+[05-May-2023 21:55:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 26
+[05-May-2023 21:55:14 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_cover.png): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 32
+[05-May-2023 21:55:14 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpwMn4cB&quot; to &quot;../user-directories//userdata/profile_cover.png&quot; in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 32
+[05-May-2023 21:55:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 49
+[05-May-2023 21:55:23 UTC] PHP Warning:  Undefined array key "update-profile-cover" in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 6
+[05-May-2023 21:55:23 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[05-May-2023 21:55:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[05-May-2023 21:55:23 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[05-May-2023 21:55:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[05-May-2023 21:55:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 18
+[05-May-2023 21:55:23 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 20
+[05-May-2023 21:55:23 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 24
+[05-May-2023 21:55:23 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 26
+[05-May-2023 21:55:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 26
+[05-May-2023 21:55:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 32
+[05-May-2023 21:55:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 36
+[05-May-2023 21:55:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 49
+[05-May-2023 21:55:53 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 4
+[05-May-2023 21:55:53 UTC] PHP Warning:  Undefined array key "update-profile-cover" in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 6
+[05-May-2023 21:55:53 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[05-May-2023 21:55:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[05-May-2023 21:55:53 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[05-May-2023 21:55:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[05-May-2023 21:55:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 18
+[05-May-2023 21:55:53 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 20
+[05-May-2023 21:55:53 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 24
+[05-May-2023 21:55:53 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 26
+[05-May-2023 21:55:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 26
+[05-May-2023 21:55:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 32
+[05-May-2023 21:55:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 36
+[05-May-2023 21:55:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 49
+[05-May-2023 21:57:04 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[05-May-2023 21:57:04 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[05-May-2023 21:57:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[05-May-2023 21:57:04 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[05-May-2023 21:57:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[05-May-2023 21:57:04 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[05-May-2023 21:57:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[05-May-2023 21:57:04 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_pic.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[05-May-2023 21:57:04 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpKJMr7o&quot; to &quot;../user-directories//userdata/profile_pic.jpg&quot; in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[05-May-2023 21:57:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 53
+[05-May-2023 21:57:06 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[05-May-2023 21:57:06 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[05-May-2023 21:57:06 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[05-May-2023 21:57:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[05-May-2023 21:57:06 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[05-May-2023 21:57:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[05-May-2023 21:57:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 18
+[05-May-2023 21:57:06 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 20
+[05-May-2023 21:57:06 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 24
+[05-May-2023 21:57:06 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[05-May-2023 21:57:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[05-May-2023 21:57:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[05-May-2023 21:57:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 40
+[05-May-2023 21:57:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 53
+[05-May-2023 21:58:05 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 4
+[05-May-2023 21:58:05 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[05-May-2023 21:58:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[05-May-2023 21:58:05 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[05-May-2023 21:58:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[05-May-2023 21:58:05 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 26
+[05-May-2023 21:58:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 26
+[05-May-2023 21:58:05 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_cover.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 32
+[05-May-2023 21:58:05 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpWLE7HA&quot; to &quot;../user-directories//userdata/profile_cover.jpg&quot; in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 32
+[05-May-2023 21:58:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 49
+[06-May-2023 04:57:32 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[06-May-2023 04:57:32 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 04:57:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 04:57:32 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 04:57:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 04:57:32 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 04:57:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 04:57:32 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_pic.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[06-May-2023 04:57:32 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php7XEE7j&quot; to &quot;../user-directories//userdata/profile_pic.jpg&quot; in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[06-May-2023 04:57:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 51
+[06-May-2023 04:59:39 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[06-May-2023 04:59:39 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 04:59:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 04:59:39 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 04:59:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 04:59:39 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 04:59:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 04:59:39 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_pic.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[06-May-2023 04:59:39 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpF3xCH5&quot; to &quot;../user-directories//userdata/profile_pic.jpg&quot; in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[06-May-2023 04:59:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 51
+[06-May-2023 05:01:56 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[06-May-2023 05:01:56 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:01:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:01:56 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:01:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:01:56 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:01:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:01:56 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_pic.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[06-May-2023 05:01:56 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpbKCW0K&quot; to &quot;../user-directories//userdata/profile_pic.jpg&quot; in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[06-May-2023 05:01:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 51
+[06-May-2023 05:03:05 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[06-May-2023 05:03:05 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:03:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:03:05 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:03:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:03:05 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:03:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:03:05 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_pic.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[06-May-2023 05:03:05 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php90AOZl&quot; to &quot;../user-directories//userdata/profile_pic.jpg&quot; in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[06-May-2023 05:03:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 51
+[06-May-2023 05:03:09 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[06-May-2023 05:03:09 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:03:09 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:03:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:03:09 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:03:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:03:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 18
+[06-May-2023 05:03:09 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 20
+[06-May-2023 05:03:09 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:03:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:03:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[06-May-2023 05:03:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 51
+[06-May-2023 05:07:21 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[06-May-2023 05:07:21 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:07:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:07:21 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:07:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:07:21 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:07:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:07:21 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_pic.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[06-May-2023 05:07:21 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpr4zoNX&quot; to &quot;../user-directories//userdata/profile_pic.jpg&quot; in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[06-May-2023 05:07:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 51
+[06-May-2023 05:07:32 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[06-May-2023 05:07:32 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:07:32 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:07:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:07:32 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:07:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:07:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 18
+[06-May-2023 05:07:32 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 20
+[06-May-2023 05:07:32 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:07:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:07:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[06-May-2023 05:07:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 51
+[06-May-2023 05:07:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[06-May-2023 05:07:33 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:07:33 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:07:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:07:33 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:07:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:07:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 18
+[06-May-2023 05:07:33 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 20
+[06-May-2023 05:07:33 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:07:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:07:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[06-May-2023 05:07:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 51
+[06-May-2023 05:07:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[06-May-2023 05:07:35 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:07:35 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:07:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:07:35 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:07:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:07:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 18
+[06-May-2023 05:07:35 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 20
+[06-May-2023 05:07:35 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:07:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:07:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[06-May-2023 05:07:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 51
+[06-May-2023 05:09:30 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[06-May-2023 05:09:30 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:09:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:09:30 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:09:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:09:30 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:09:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:09:30 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_pic.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[06-May-2023 05:09:30 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phppnwJmO&quot; to &quot;../user-directories//userdata/profile_pic.jpg&quot; in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[06-May-2023 05:09:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 51
+[06-May-2023 05:09:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[06-May-2023 05:09:33 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:09:33 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:09:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:09:33 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:09:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:09:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 18
+[06-May-2023 05:09:33 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 20
+[06-May-2023 05:09:33 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:09:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:09:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[06-May-2023 05:09:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 51
+[06-May-2023 05:11:36 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[06-May-2023 05:11:36 UTC] PHP Warning:  Array to string conversion in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:11:57 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[06-May-2023 05:11:57 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:14:16 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[06-May-2023 05:14:16 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:14:46 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[06-May-2023 05:14:46 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:14:46 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:15:02 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[06-May-2023 05:15:02 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:15:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:16:23 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:16:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:17:12 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:17:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:18:39 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:18:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:19:48 UTC] PHP Warning:  Undefined variable $_FILE in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:19:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:19:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:24:19 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 4
+[06-May-2023 05:24:19 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[06-May-2023 05:24:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[06-May-2023 05:24:19 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[06-May-2023 05:24:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[06-May-2023 05:24:19 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 20
+[06-May-2023 05:24:19 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 24
+[06-May-2023 05:24:19 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 26
+[06-May-2023 05:24:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 26
+[06-May-2023 05:24:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 49
+[06-May-2023 05:25:00 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:25:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 6
+[06-May-2023 05:26:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 4
+[06-May-2023 05:26:48 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:26:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 8
+[06-May-2023 05:26:48 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:26:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 9
+[06-May-2023 05:26:48 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:26:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 26
+[06-May-2023 05:26:48 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_pic.JPG): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[06-May-2023 05:26:48 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpiPfEHy&quot; to &quot;../user-directories//userdata/profile_pic.JPG&quot; in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 36
+[06-May-2023 05:26:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 51
+[06-May-2023 05:28:49 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 10
+[06-May-2023 05:28:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 10
+[06-May-2023 05:28:49 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 11
+[06-May-2023 05:28:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 11
+[06-May-2023 05:28:49 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 28
+[06-May-2023 05:28:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 28
+[06-May-2023 05:28:49 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_pic.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 38
+[06-May-2023 05:28:49 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php9B4YpJ&quot; to &quot;../user-directories//userdata/profile_pic.jpg&quot; in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 38
+[06-May-2023 05:28:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 53
+[06-May-2023 05:48:14 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 10
+[06-May-2023 05:48:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 10
+[06-May-2023 05:48:14 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 11
+[06-May-2023 05:48:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 11
+[06-May-2023 05:48:14 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 28
+[06-May-2023 05:48:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 28
+[06-May-2023 05:48:14 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_pic.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 38
+[06-May-2023 05:48:14 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpHWkUAr&quot; to &quot;../user-directories//userdata/profile_pic.jpg&quot; in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 38
+[06-May-2023 05:48:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 53
+[06-May-2023 05:56:20 UTC] PHP Warning:  Array to string conversion in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 7
+[06-May-2023 05:57:46 UTC] PHP Warning:  Undefined array key "file" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 5
+[06-May-2023 05:58:38 UTC] PHP Warning:  Undefined array key "file" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 5
+[06-May-2023 05:59:08 UTC] PHP Warning:  Undefined array key "file" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 5
+[06-May-2023 06:00:33 UTC] PHP Warning:  Undefined array key "file" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 5
+[06-May-2023 06:01:33 UTC] PHP Warning:  Undefined array key "file" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 5
+[06-May-2023 06:02:15 UTC] PHP Warning:  Undefined array key "file" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 5
+[06-May-2023 06:03:25 UTC] PHP Warning:  Undefined array key "filee" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 5
+[06-May-2023 06:05:59 UTC] PHP Warning:  Array to string conversion in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 7
+[06-May-2023 06:10:26 UTC] PHP Warning:  Array to string conversion in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 7
+[06-May-2023 06:13:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 52
+[06-May-2023 06:14:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 52
+[06-May-2023 06:16:44 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 4
+[06-May-2023 06:16:44 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[06-May-2023 06:16:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[06-May-2023 06:16:44 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[06-May-2023 06:16:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[06-May-2023 06:16:44 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 26
+[06-May-2023 06:16:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 26
+[06-May-2023 06:16:44 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_cover.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 32
+[06-May-2023 06:16:44 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpzDcvSB&quot; to &quot;../user-directories//userdata/profile_cover.jpg&quot; in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 32
+[06-May-2023 06:16:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 49
+[06-May-2023 06:18:02 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 4
+[06-May-2023 06:18:02 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[06-May-2023 06:18:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 8
+[06-May-2023 06:18:02 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[06-May-2023 06:18:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 9
+[06-May-2023 06:18:02 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 24
+[06-May-2023 06:18:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 24
+[06-May-2023 06:18:02 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_cover.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 30
+[06-May-2023 06:18:02 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpJptaFF&quot; to &quot;../user-directories//userdata/profile_cover.jpg&quot; in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 30
+[06-May-2023 06:18:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/profile-cover-update.php on line 45
+[06-May-2023 06:19:15 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/update/profile-pic-update.php on line 19
+[08-May-2023 06:03:42 UTC] PHP Warning:  Undefined variable $conn in /home/hs902/public_html/beatsvault/db/update/user-follow.php on line 48
+[08-May-2023 06:03:42 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/hs902/public_html/beatsvault/db/update/user-follow.php:48
+Stack trace:
+#0 /home/hs902/public_html/beatsvault/db/update/user-follow.php(48): mysqli_query(NULL, 'DELETE FROM use...')
+#1 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/user-follow.php on line 48
+[08-May-2023 06:03:48 UTC] PHP Warning:  Undefined variable $conn in /home/hs902/public_html/beatsvault/db/update/user-follow.php on line 48
+[08-May-2023 06:03:48 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/hs902/public_html/beatsvault/db/update/user-follow.php:48
+Stack trace:
+#0 /home/hs902/public_html/beatsvault/db/update/user-follow.php(48): mysqli_query(NULL, 'DELETE FROM use...')
+#1 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/update/user-follow.php on line 48

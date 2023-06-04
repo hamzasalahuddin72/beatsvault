@@ -1,0 +1,103 @@
+[05-May-2023 20:07:32 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/hs902/public_html/beatsvault/db/database.php on line 8
+[05-May-2023 20:30:27 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 11
+[05-May-2023 20:30:27 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 12
+[05-May-2023 20:30:27 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 13
+[05-May-2023 20:30:27 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 14
+[05-May-2023 20:30:27 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 15
+[05-May-2023 20:30:51 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 11
+[05-May-2023 20:30:51 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 12
+[05-May-2023 20:30:51 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 13
+[05-May-2023 20:30:51 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 14
+[05-May-2023 20:30:51 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 15
+[05-May-2023 20:31:00 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 11
+[05-May-2023 20:31:00 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 12
+[05-May-2023 20:31:00 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 13
+[05-May-2023 20:31:00 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 14
+[05-May-2023 20:31:00 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 15
+[05-May-2023 20:35:40 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 11
+[05-May-2023 20:35:40 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 12
+[05-May-2023 20:35:40 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 13
+[05-May-2023 20:35:40 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 14
+[05-May-2023 20:35:40 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 15
+[05-May-2023 20:41:13 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 11
+[05-May-2023 20:41:13 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 12
+[05-May-2023 20:41:13 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 13
+[05-May-2023 20:41:13 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 14
+[05-May-2023 20:41:13 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 15
+[05-May-2023 20:42:46 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 11
+[05-May-2023 20:42:46 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 12
+[05-May-2023 20:42:46 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 13
+[05-May-2023 20:42:46 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 14
+[05-May-2023 20:42:46 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 15
+[05-May-2023 20:44:39 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 11
+[05-May-2023 20:44:39 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 12
+[05-May-2023 20:44:39 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 13
+[05-May-2023 20:44:39 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 14
+[05-May-2023 20:44:39 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 15
+[05-May-2023 20:44:40 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 11
+[05-May-2023 20:44:40 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 12
+[05-May-2023 20:44:40 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 13
+[05-May-2023 20:44:40 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 14
+[05-May-2023 20:44:40 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 15
+[05-May-2023 20:46:03 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 11
+[05-May-2023 20:46:03 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 12
+[05-May-2023 20:46:03 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 13
+[05-May-2023 20:46:03 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 14
+[05-May-2023 20:46:03 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 15
+[05-May-2023 20:46:52 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 11
+[05-May-2023 20:46:52 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 12
+[05-May-2023 20:46:52 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 13
+[05-May-2023 20:46:52 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 14
+[05-May-2023 20:46:52 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 15
+[05-May-2023 20:52:53 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 11
+[05-May-2023 20:52:53 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 12
+[05-May-2023 20:52:53 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 13
+[05-May-2023 20:52:53 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 14
+[05-May-2023 20:52:53 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 15
+[05-May-2023 20:53:55 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 11
+[05-May-2023 20:53:55 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 12
+[05-May-2023 20:53:55 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 13
+[05-May-2023 20:53:55 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 14
+[05-May-2023 20:53:55 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/validation/file-validation.php on line 15
+[05-May-2023 22:14:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/hs902/public_html/beatsvault/db/upload/cover-upload.php:59
+Stack trace:
+#0 /home/hs902/public_html/beatsvault/db/upload/cover-upload.php(59): mysqli_stmt->bind_param('iss', '1', '../user-directo...')
+#1 /home/hs902/public_html/beatsvault/db/validation/metadata-validation.php(40): include('/home/hs902/pub...')
+#2 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/upload/cover-upload.php on line 59
+[05-May-2023 22:17:53 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/upload/cover-upload.php on line 27
+[05-May-2023 22:19:05 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/hs902/public_html/beatsvault/db/upload/cover-upload.php on line 34
+[05-May-2023 22:22:26 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/hs902/public_html/beatsvault/db/upload/cover-upload.php:59
+Stack trace:
+#0 /home/hs902/public_html/beatsvault/db/upload/cover-upload.php(59): mysqli_stmt->bind_param('iss', '1', '../user-directo...')
+#1 /home/hs902/public_html/beatsvault/db/validation/metadata-validation.php(40): include('/home/hs902/pub...')
+#2 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/upload/cover-upload.php on line 59
+[11-May-2023 12:17:15 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/hs902/public_html/beatsvault/db/database.php on line 8
+[11-May-2023 12:27:01 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/hs902/public_html/beatsvault/db/database.php on line 8
+[11-May-2023 12:27:33 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/hs902/public_html/beatsvault/db/database.php on line 8
+[11-May-2023 12:28:30 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/hs902/public_html/beatsvault/db/database.php on line 8
+[11-May-2023 12:31:12 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/hs902/public_html/beatsvault/db/database.php on line 8
+[11-May-2023 12:31:57 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/hs902/public_html/beatsvault/db/database.php on line 8
+[11-May-2023 12:33:16 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/hs902/public_html/beatsvault/db/database.php on line 8
+[11-May-2023 12:36:23 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/hs902/public_html/beatsvault/db/database.php on line 8
+[14-May-2023 11:46:22 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/validation/signup-validate.php on line 85
+[14-May-2023 11:46:22 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/validation/signup-validate.php on line 86
+[14-May-2023 11:46:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hs902/public_html/beatsvault/db/validation/signup-validate.php:85) in /home/hs902/public_html/beatsvault/db/validation/signup-validate.php on line 87
+[16-May-2023 04:11:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/hs902/public_html/beatsvault/db/validation/signup-validate.php:58
+Stack trace:
+#0 /home/hs902/public_html/beatsvault/db/validation/signup-validate.php(58): mysqli_stmt->bind_param('ssssssi', 'Hamza', 'Salahuddin', 'www', 'H.Salahuddin1@u...', '$2y$10$0bcek2XN...', 0)
+#1 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/validation/signup-validate.php on line 58
+[19-May-2023 14:38:04 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/validation/signup-validate.php on line 85
+[19-May-2023 14:38:04 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/validation/signup-validate.php on line 86
+[19-May-2023 14:38:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hs902/public_html/beatsvault/db/validation/signup-validate.php:85) in /home/hs902/public_html/beatsvault/db/validation/signup-validate.php on line 87
+[19-May-2023 14:44:38 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/validation/signup-validate.php on line 85
+[19-May-2023 14:44:38 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/validation/signup-validate.php on line 86
+[19-May-2023 14:44:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hs902/public_html/beatsvault/db/validation/signup-validate.php:85) in /home/hs902/public_html/beatsvault/db/validation/signup-validate.php on line 87
+[19-May-2023 14:53:22 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/validation/signup-validate.php on line 85
+[19-May-2023 14:53:22 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/validation/signup-validate.php on line 86
+[19-May-2023 14:53:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hs902/public_html/beatsvault/db/validation/signup-validate.php:85) in /home/hs902/public_html/beatsvault/db/validation/signup-validate.php on line 87
+[19-May-2023 16:49:54 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/validation/signup-validate.php on line 85
+[19-May-2023 16:49:54 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/validation/signup-validate.php on line 86
+[19-May-2023 16:49:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hs902/public_html/beatsvault/db/validation/signup-validate.php:85) in /home/hs902/public_html/beatsvault/db/validation/signup-validate.php on line 87

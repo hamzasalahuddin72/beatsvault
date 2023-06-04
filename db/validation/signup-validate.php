@@ -136,6 +136,6 @@ if (isset($_POST['submit'])) {
     } else if (emptyPassword == true || passwordInvalid == true) {
         $("#new-pw").addClass("error-field");
     } else {
-        window.location.href = "signup-success.php";
+        location.reload();
     }
 </script>

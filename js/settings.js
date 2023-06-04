@@ -7,8 +7,12 @@ export function toggleSettings() {
     $(".head-btn").on('click', (e) => {
         console.log($(e.target).attr('panel'));
         $(".head-btn").removeClass("active-head");
-        $(".settings-body").css("margin-left", -800 * $(e.target).attr('panel') + "px");
         $("[panel=" + $(e.target).attr('panel') + "]").addClass("active-head");
+        if ($(window).width() > 980) {
+            $(".settings-body").css("margin-left", -800 * $(e.target).attr('panel') + "px");
+        } else if ($(window).width() <= 980) {
+            $(".settings-body").css("margin-left", -100 * $(e.target).attr('panel') + "vw");
+        }
     })
     $.ajax({
         url: 'db/download/get-user-details.php',

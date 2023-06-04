@@ -46,10 +46,10 @@ foreach ($allToUsers as $toUser) {
     $mysqli = require "../database.php";
 
     $sql = "SELECT au.username, ud.profile_pic_url, uc.* FROM all_users au, user_data ud, user_chat uc
-        WHERE (uc.from_user = '{$toUser}'
-        OR uc.to_user = '{$toUser}')
-        AND au.id = '{$toUser}'
-        AND ud.id = '{$toUser}'";
+        WHERE ((uc.from_user = '$toUser' AND uc.to_user = {$_SESSION['user_id']})
+        OR (uc.to_user = '$toUser' AND uc.from_user = {$_SESSION['user_id']}))
+        AND au.id = '$toUser'
+        AND ud.id = '$toUser'";
 
     $result = mysqli_query($mysqli, $sql);
 

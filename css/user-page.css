@@ -14,20 +14,17 @@
     background-position: center;
     margin: 0 auto;
     width: 100%;
-    /* min-width: 50%;
-    max-width: 900px; */
 }
 
 #pw-bg-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     border-bottom: solid var(--blue) 1px;
     padding: 40px;
     margin: 0 auto;
     width: inherit;
-    /* min-width: 50%;
-    max-width: 1000px; */
     box-sizing: border-box;
     background-color: var(--img-bg-overlay);
     box-shadow: 0 2.8px 2.2px rgba(69, 111, 167, 0.034),
@@ -121,9 +118,10 @@ label:hover .tooltip{
 }
 
 #pp-bg-update-label {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     width: max-content;
+    margin-top: 20px;
 }
 
 #pp-bg-update-label:hover {
@@ -152,4 +150,15 @@ label:hover .tooltip{
 
 .genre-item:hover a {
     color: var(--blue);
+}
+
+@media screen and (max-width: 540px) {
+    #profile-pic-frame {
+        width: 150px;
+        height: 150px;
+    }
+
+    #pw-bg-wrapper {
+        flex-direction: column;
+    }
 }

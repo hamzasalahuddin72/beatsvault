@@ -18,6 +18,7 @@ export function allMsgs() {
         dataType: 'json',
         success: function (data) {
             current_user = data[1];
+            console.log(data)
             if (data[0].length > 0) {
                 for (let i = 0; i < data[0].length; i++) {
                     data[0][i][0]["chats"].reverse();
@@ -146,6 +147,7 @@ function fetchChat(to_user) {
         dataType: 'json',
         success: function (data) {
             data[0].reverse();
+            console.log(data)
             $(".chat-container-body").empty();
             if (data[0][0].seen != 9) {
                 last_message_id = data[0][0].id;

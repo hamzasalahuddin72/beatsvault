@@ -142,7 +142,7 @@ export function appendFeed(data, sort, div) {
         loopTrack();
     });
 
-    setLayout(0)
+    setLayout(2)
 
 }
 
@@ -199,6 +199,7 @@ export function downloadUserTracks() {
                 </div>
                 `);
             } else {
+                data.reverse();
                 for (var i = 0; i < data.length; i++) {
                     $(".recent-tracks").append(` <div class="album-cover">
         <div class="album-cover-img" id="album-cover`+ data[i].id + `"

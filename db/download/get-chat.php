@@ -7,8 +7,8 @@ $to_user = $_GET["to_user"];
 $mysqli = require "../database.php";
 
 $sql = "SELECT * FROM user_chat
-        WHERE from_user = '{$to_user}'
-        OR to_user = '{$to_user}'";
+        WHERE ((from_user = '$to_user' AND to_user = {$_SESSION['user_id']})
+        OR (to_user = '$to_user' AND from_user = {$_SESSION['user_id']}))";
 
 $result = mysqli_query($mysqli, $sql);
 

@@ -1,0 +1,373 @@
+[05-May-2023 20:56:14 UTC] PHP Warning:  Undefined variable $pathext in /home/hs902/public_html/beatsvault/db/upload/file-upload.php on line 21
+[05-May-2023 21:34:38 UTC] PHP Warning:  Undefined variable $pathext in /home/hs902/public_html/beatsvault/db/upload/file-upload.php on line 21
+[05-May-2023 22:02:33 UTC] PHP Warning:  Undefined variable $pathext in /home/hs902/public_html/beatsvault/db/upload/file-upload.php on line 21
+[06-May-2023 04:53:14 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 4
+[06-May-2023 04:53:14 UTC] PHP Warning:  Undefined array key "user-profile-pic" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 6
+[06-May-2023 04:53:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 6
+[06-May-2023 04:53:14 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 7
+[06-May-2023 04:53:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 7
+[06-May-2023 04:53:14 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 8
+[06-May-2023 04:53:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 8
+[06-May-2023 04:53:14 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 25
+[06-May-2023 04:53:14 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 25
+[06-May-2023 04:53:14 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_pic.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 34
+[06-May-2023 04:53:14 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php4qCRlh&quot; to &quot;../user-directories//userdata/profile_pic.jpg&quot; in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 34
+[06-May-2023 04:53:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 51
+[06-May-2023 05:31:50 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 4
+[06-May-2023 05:31:50 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 6
+[06-May-2023 05:31:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 6
+[06-May-2023 05:31:50 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 7
+[06-May-2023 05:31:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 7
+[06-May-2023 05:31:50 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 8
+[06-May-2023 05:31:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 8
+[06-May-2023 05:31:50 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 25
+[06-May-2023 05:31:50 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 25
+[06-May-2023 05:31:50 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_pic.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 34
+[06-May-2023 05:31:50 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php9dr34n&quot; to &quot;../user-directories//userdata/profile_pic.jpg&quot; in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 34
+[06-May-2023 05:31:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 49
+[06-May-2023 05:35:23 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 4
+[06-May-2023 05:35:23 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 6
+[06-May-2023 05:35:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 6
+[06-May-2023 05:35:23 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 7
+[06-May-2023 05:35:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 7
+[06-May-2023 05:35:23 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 8
+[06-May-2023 05:35:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 8
+[06-May-2023 05:35:23 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 25
+[06-May-2023 05:35:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 25
+[06-May-2023 05:35:23 UTC] PHP Warning:  move_uploaded_file(../user-directories//userdata/profile_pic.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 34
+[06-May-2023 05:35:23 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpU7NoyU&quot; to &quot;../user-directories//userdata/profile_pic.jpg&quot; in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 34
+[06-May-2023 05:35:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 49
+[09-May-2023 05:30:58 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 10
+[09-May-2023 05:30:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 10
+[09-May-2023 05:31:28 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 3
+[09-May-2023 05:31:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 3
+[09-May-2023 05:31:28 UTC] PHP Warning:  Undefined array key "audio-file" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 4
+[09-May-2023 05:31:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 4
+[09-May-2023 05:31:28 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 05:31:28 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 05:31:28 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 7
+[09-May-2023 05:31:28 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 8
+[09-May-2023 05:31:28 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 9
+[09-May-2023 05:31:28 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 10
+[09-May-2023 05:31:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 10
+[09-May-2023 05:31:29 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 3
+[09-May-2023 05:31:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 3
+[09-May-2023 05:31:29 UTC] PHP Warning:  Undefined array key "audio-file" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 4
+[09-May-2023 05:31:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 4
+[09-May-2023 05:31:29 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 05:31:29 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 05:31:29 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 7
+[09-May-2023 05:31:29 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 8
+[09-May-2023 05:31:29 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 9
+[09-May-2023 05:31:29 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 10
+[09-May-2023 05:31:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 10
+[09-May-2023 05:31:30 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 3
+[09-May-2023 05:31:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 3
+[09-May-2023 05:31:30 UTC] PHP Warning:  Undefined array key "audio-file" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 4
+[09-May-2023 05:31:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 4
+[09-May-2023 05:31:30 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 05:31:30 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 05:31:30 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 7
+[09-May-2023 05:31:30 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 8
+[09-May-2023 05:31:30 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 9
+[09-May-2023 05:31:30 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 10
+[09-May-2023 05:31:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 10
+[09-May-2023 05:31:58 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 10
+[09-May-2023 05:31:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 10
+[09-May-2023 05:32:35 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 05:32:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 05:32:35 UTC] PHP Warning:  Undefined array key "audio-file" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 05:32:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 05:32:35 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 7
+[09-May-2023 05:32:35 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 8
+[09-May-2023 05:32:35 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 9
+[09-May-2023 05:32:35 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 10
+[09-May-2023 05:32:35 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 11
+[09-May-2023 05:32:36 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 05:32:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 05:32:36 UTC] PHP Warning:  Undefined array key "audio-file" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 05:32:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 05:32:36 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 7
+[09-May-2023 05:32:36 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 8
+[09-May-2023 05:32:36 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 9
+[09-May-2023 05:32:36 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 10
+[09-May-2023 05:32:36 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 11
+[09-May-2023 05:41:19 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 30
+[09-May-2023 05:41:19 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 34
+[09-May-2023 05:41:19 UTC] PHP Warning:  move_uploaded_file(../user-directories/hamzasaleh72/tracks/87/beat.mp3): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 70
+[09-May-2023 05:41:19 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpKK4KAe&quot; to &quot;../user-directories/hamzasaleh72/tracks/87/beat.mp3&quot; in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 70
+[09-May-2023 05:42:40 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 05:42:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 05:42:40 UTC] PHP Warning:  Undefined array key "audio-file" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 05:42:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 05:42:40 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 7
+[09-May-2023 05:42:40 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 8
+[09-May-2023 05:42:40 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 9
+[09-May-2023 05:42:40 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 10
+[09-May-2023 05:42:40 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 11
+[09-May-2023 05:42:40 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 24
+[09-May-2023 05:42:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 24
+[09-May-2023 05:42:40 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 26
+[09-May-2023 05:42:40 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 30
+[09-May-2023 05:42:40 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 32
+[09-May-2023 05:42:40 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 34
+[09-May-2023 05:42:40 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 45
+[09-May-2023 05:42:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 45
+[09-May-2023 05:42:40 UTC] PHP Warning:  Undefined variable $file_url in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 79
+[09-May-2023 05:43:35 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 05:43:35 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 05:43:35 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 7
+[09-May-2023 05:43:35 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 8
+[09-May-2023 05:43:35 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 9
+[09-May-2023 05:43:35 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 22
+[09-May-2023 05:43:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 22
+[09-May-2023 05:43:35 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 24
+[09-May-2023 05:43:35 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 28
+[09-May-2023 05:43:35 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 30
+[09-May-2023 05:43:35 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 32
+[09-May-2023 05:43:35 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 43
+[09-May-2023 05:43:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 43
+[09-May-2023 05:43:35 UTC] PHP Warning:  Undefined variable $file_url in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 77
+[09-May-2023 05:44:32 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 05:44:32 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 05:44:32 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 7
+[09-May-2023 05:44:32 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 8
+[09-May-2023 05:44:32 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 9
+[09-May-2023 05:44:32 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 22
+[09-May-2023 05:44:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 22
+[09-May-2023 05:44:32 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 24
+[09-May-2023 05:44:32 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 28
+[09-May-2023 05:44:32 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 30
+[09-May-2023 05:44:32 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 32
+[09-May-2023 05:44:32 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 43
+[09-May-2023 05:44:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 43
+[09-May-2023 05:44:32 UTC] PHP Warning:  Undefined variable $file_url in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 73
+[09-May-2023 05:44:34 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 05:44:34 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 05:44:34 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 7
+[09-May-2023 05:44:34 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 8
+[09-May-2023 05:44:34 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 9
+[09-May-2023 05:44:34 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 22
+[09-May-2023 05:44:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 22
+[09-May-2023 05:44:34 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 24
+[09-May-2023 05:44:34 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 28
+[09-May-2023 05:44:34 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 30
+[09-May-2023 05:44:34 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 32
+[09-May-2023 05:44:34 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 43
+[09-May-2023 05:44:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 43
+[09-May-2023 05:44:34 UTC] PHP Warning:  Undefined variable $file_url in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 73
+[09-May-2023 05:44:44 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 28
+[09-May-2023 05:44:44 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 32
+[09-May-2023 05:46:02 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 39
+[09-May-2023 05:46:02 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 05:46:02 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 05:46:02 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 7
+[09-May-2023 05:46:02 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 8
+[09-May-2023 05:46:02 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 9
+[09-May-2023 05:46:02 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 22
+[09-May-2023 05:46:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 22
+[09-May-2023 05:46:02 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 24
+[09-May-2023 05:46:02 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 28
+[09-May-2023 05:46:02 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 30
+[09-May-2023 05:46:02 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 32
+[09-May-2023 05:46:02 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 43
+[09-May-2023 05:46:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 43
+[09-May-2023 05:46:02 UTC] PHP Warning:  Undefined variable $file_url in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 73
+[09-May-2023 05:46:02 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 05:46:28 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 28
+[09-May-2023 05:46:28 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 32
+[09-May-2023 05:47:42 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 39
+[09-May-2023 05:47:42 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 05:47:42 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 05:47:42 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 7
+[09-May-2023 05:47:42 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 8
+[09-May-2023 05:47:42 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 9
+[09-May-2023 05:47:42 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 22
+[09-May-2023 05:47:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 22
+[09-May-2023 05:47:42 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 24
+[09-May-2023 05:47:42 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 28
+[09-May-2023 05:47:42 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 30
+[09-May-2023 05:47:42 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 32
+[09-May-2023 05:47:42 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 43
+[09-May-2023 05:47:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 43
+[09-May-2023 05:47:42 UTC] PHP Warning:  Undefined variable $file_destination in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 73
+[09-May-2023 05:48:43 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 28
+[09-May-2023 05:48:43 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 32
+[09-May-2023 05:49:59 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 39
+[09-May-2023 05:49:59 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 05:49:59 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 05:49:59 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 7
+[09-May-2023 05:49:59 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 8
+[09-May-2023 05:49:59 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 9
+[09-May-2023 05:49:59 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 22
+[09-May-2023 05:49:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 22
+[09-May-2023 05:49:59 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 24
+[09-May-2023 05:49:59 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 28
+[09-May-2023 05:49:59 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 30
+[09-May-2023 05:50:36 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 28
+[09-May-2023 05:50:36 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 32
+[09-May-2023 05:51:56 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 39
+[09-May-2023 05:51:56 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 05:51:56 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 05:51:56 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 7
+[09-May-2023 05:51:56 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 8
+[09-May-2023 05:51:56 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 9
+[09-May-2023 05:51:56 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 22
+[09-May-2023 05:51:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 22
+[09-May-2023 05:51:56 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 24
+[09-May-2023 05:51:56 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 28
+[09-May-2023 05:51:56 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 30
+[09-May-2023 05:51:56 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 32
+[09-May-2023 05:51:56 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 43
+[09-May-2023 05:51:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 43
+[09-May-2023 05:51:56 UTC] PHP Warning:  Undefined variable $file_destination in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 73
+[09-May-2023 05:51:56 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 28
+[09-May-2023 05:53:10 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 39
+[09-May-2023 05:53:10 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 28
+[09-May-2023 05:53:10 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 32
+[09-May-2023 05:54:37 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 28
+[09-May-2023 05:55:58 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 39
+[09-May-2023 05:55:58 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 05:55:58 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 05:55:58 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 7
+[09-May-2023 05:55:58 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 8
+[09-May-2023 05:55:58 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 9
+[09-May-2023 05:55:58 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 22
+[09-May-2023 05:55:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 22
+[09-May-2023 05:55:58 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 24
+[09-May-2023 05:55:58 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 28
+[09-May-2023 05:55:58 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 30
+[09-May-2023 05:55:58 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 43
+[09-May-2023 05:55:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 43
+[09-May-2023 05:55:58 UTC] PHP Warning:  Undefined variable $file_destination in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 73
+[09-May-2023 05:55:58 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 28
+[09-May-2023 05:57:14 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 39
+[09-May-2023 05:58:11 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 28
+[09-May-2023 05:59:23 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 39
+[09-May-2023 05:59:23 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 05:59:23 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 05:59:23 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 7
+[09-May-2023 05:59:23 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 8
+[09-May-2023 05:59:23 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 9
+[09-May-2023 05:59:23 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 22
+[09-May-2023 05:59:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 22
+[09-May-2023 05:59:23 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 24
+[09-May-2023 05:59:23 UTC] PHP Warning:  Undefined variable $beat_name_var in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 28
+[09-May-2023 05:59:23 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 30
+[09-May-2023 05:59:23 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 43
+[09-May-2023 05:59:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 43
+[09-May-2023 06:06:42 UTC] PHP Warning:  move_uploaded_file(../user-directories/hamzasaleh72/tracks/bands_n_love/cover.jpg): Failed to open stream: No such file or directory in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 44
+[09-May-2023 06:06:42 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/php3D4mt8&quot; to &quot;../user-directories/hamzasaleh72/tracks/bands_n_love/cover.jpg&quot; in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 44
+[09-May-2023 06:07:24 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 06:07:24 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 06:07:24 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 7
+[09-May-2023 06:07:24 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 8
+[09-May-2023 06:07:24 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 9
+[09-May-2023 06:07:24 UTC] PHP Warning:  Undefined array key "beat-name-var" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 10
+[09-May-2023 06:07:24 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 23
+[09-May-2023 06:07:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 23
+[09-May-2023 06:07:24 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 25
+[09-May-2023 06:07:24 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 31
+[09-May-2023 06:07:24 UTC] PHP Warning:  Undefined array key "beat-cover" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 44
+[09-May-2023 06:07:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 44
+[09-May-2023 06:17:17 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 35
+[09-May-2023 06:33:47 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 30
+[09-May-2023 06:34:59 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 36
+[09-May-2023 06:34:59 UTC] PHP Warning:  Undefined array key "beat-title" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 5
+[09-May-2023 06:34:59 UTC] PHP Warning:  Undefined array key "beat-genre" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 6
+[09-May-2023 06:34:59 UTC] PHP Warning:  Undefined array key "beat-tempo" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 7
+[09-May-2023 06:34:59 UTC] PHP Warning:  Undefined array key "beat-key" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 8
+[09-May-2023 06:34:59 UTC] PHP Warning:  Undefined array key "beat-desc" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 9
+[09-May-2023 06:34:59 UTC] PHP Warning:  Undefined array key "beat-name-var" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 10
+[09-May-2023 06:34:59 UTC] PHP Warning:  Undefined array key "audio-file" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 23
+[09-May-2023 06:34:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 23
+[09-May-2023 06:34:59 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 24
+[09-May-2023 06:34:59 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 28
+[09-May-2023 06:34:59 UTC] PHP Warning:  mkdir(): File exists in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 30
+[09-May-2023 06:34:59 UTC] PHP Warning:  Undefined array key "audio-file" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 40
+[09-May-2023 06:34:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 40
+[09-May-2023 06:55:16 UTC] PHP Warning:  Undefined array key "action" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 24
+[09-May-2023 06:55:16 UTC] PHP Warning:  Undefined array key "action" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 83
+[12-May-2023 05:08:19 UTC] PHP Warning:  Undefined array key "username" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 11
+[12-May-2023 05:08:19 UTC] PHP Warning:  Undefined array key "user_id" in /home/hs902/public_html/beatsvault/db/upload/track-upload.php on line 12
+[14-May-2023 11:24:27 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/hs902/public_html/beatsvault/db/upload/signup-complete.php:47
+Stack trace:
+#0 /home/hs902/public_html/beatsvault/db/upload/signup-complete.php(47): mysqli_stmt->bind_param('isssssssssiss', '4', 'Producer', 'Male', 'pending..', 'pending..', 'pending..', 'pending..', 'fra', '3,7,18', 'Eminem Type Bea...', '142', '1,4,6', '4')
+#1 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/upload/signup-complete.php on line 47
+[14-May-2023 11:28:20 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/hs902/public_html/beatsvault/db/upload/signup-complete.php:47
+Stack trace:
+#0 /home/hs902/public_html/beatsvault/db/upload/signup-complete.php(47): mysqli_stmt->bind_param('isssssssssiss', '4', 'Producer', 'Male', 'pending..', 'pending..', 'pending..', 'pending..', 'asm', '13,14,15', 'Drake Type Beat...', '108', '1,2,3', '4,7')
+#1 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/upload/signup-complete.php on line 47
+[14-May-2023 11:28:57 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt object is not fully initialized in /home/hs902/public_html/beatsvault/db/upload/signup-complete.php:47
+Stack trace:
+#0 /home/hs902/public_html/beatsvault/db/upload/signup-complete.php(47): mysqli_stmt->bind_param('isssssssssiss', '4', 'Producer', 'Male', 'pending..', 'pending..', 'pending..', 'pending..', 'asm', '13,14,15', 'Drake Type Beat...', '108', '1,2,3', '4,7')
+#1 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/upload/signup-complete.php on line 47
+[14-May-2023 11:31:12 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 4
+[14-May-2023 11:31:12 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 6
+[14-May-2023 11:31:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 6
+[14-May-2023 11:31:12 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 7
+[14-May-2023 11:31:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 7
+[14-May-2023 11:31:12 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 8
+[14-May-2023 11:31:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 8
+[14-May-2023 11:31:12 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 17
+[14-May-2023 11:31:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 17
+[14-May-2023 11:31:12 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 19
+[14-May-2023 11:31:12 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 23
+[14-May-2023 11:31:12 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 25
+[14-May-2023 11:31:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 25
+[14-May-2023 11:31:12 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 34
+[14-May-2023 11:31:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 34
+[14-May-2023 11:31:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 49
+[14-May-2023 11:44:37 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 4
+[14-May-2023 11:44:37 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 6
+[14-May-2023 11:44:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 6
+[14-May-2023 11:44:37 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 7
+[14-May-2023 11:44:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 7
+[14-May-2023 11:44:37 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 8
+[14-May-2023 11:44:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 8
+[14-May-2023 11:44:37 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 17
+[14-May-2023 11:44:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 17
+[14-May-2023 11:44:37 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 19
+[14-May-2023 11:44:37 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 23
+[14-May-2023 11:44:37 UTC] PHP Warning:  Undefined variable $_SESSION in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 25
+[14-May-2023 11:44:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 25
+[14-May-2023 11:44:37 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 34
+[14-May-2023 11:44:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 34
+[14-May-2023 11:44:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 49
+[14-May-2023 11:46:49 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 5
+[14-May-2023 11:46:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 5
+[14-May-2023 11:46:49 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 16
+[14-May-2023 11:46:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 16
+[14-May-2023 11:46:49 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 18
+[14-May-2023 11:46:49 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 22
+[14-May-2023 11:46:49 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 33
+[14-May-2023 11:46:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 33
+[14-May-2023 11:49:18 UTC] PHP Warning:  Undefined array key "user-profile-pic" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 5
+[14-May-2023 11:49:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 5
+[14-May-2023 11:49:18 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 16
+[14-May-2023 11:49:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 16
+[14-May-2023 11:49:18 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 18
+[14-May-2023 11:49:18 UTC] PHP Warning:  Undefined array key "extension" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 22
+[14-May-2023 11:49:18 UTC] PHP Warning:  Undefined array key "update-profile-pic" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 33
+[14-May-2023 11:49:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 33
+[14-May-2023 11:50:21 UTC] PHP Warning:  Undefined array key "user-profile-pic" in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 5
+[14-May-2023 11:50:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 5
+[19-May-2023 14:40:17 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home/hs902/public_html/beatsvault/db/upload/profile-pic-upload.php on line 27

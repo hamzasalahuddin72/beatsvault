@@ -17,8 +17,8 @@
 }
 
 .grid-feed-album-cover {
-    width: 250px;
-    height: 250px;
+    min-width: 250px;
+    min-height: 250px;
     aspect-ratio: 1/1;
 }
 
@@ -74,8 +74,8 @@
     }
 
     .grid-feed-album-cover {
-        width: 150px;
-        height: 150px;
+        min-width: 150px;
+        min-height: 150px;
     }
 
     .feed-content-user-span {
@@ -93,8 +93,8 @@
     }
 
     .linear-feed-album-cover {
-        width: 110px;
-        height: 110px;
+        min-width: 110px;
+        min-height: 110px;
     }
 
     .feed-content-card * {

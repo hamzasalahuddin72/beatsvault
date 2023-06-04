@@ -60,7 +60,7 @@ select {
     flex-direction: column;
     gap: 10px;
     background-color: transparent;
-    max-width: 800px;
+    min-width: 100%;
     max-height: max-content;
 }
 
