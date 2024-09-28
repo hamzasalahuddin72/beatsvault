@@ -13,7 +13,7 @@ if (isset($_SESSION["user_id"])) {
 
     if ($result) {
         if (mysqli_num_rows($result) == 0) {
-            header("Location: /beatsvault/login");
+            header("Location: /login");
         } else {
             $sql = "SELECT * FROM all_users
             WHERE id = {$_SESSION["user_id"]} AND signup_complete = 1";
@@ -23,7 +23,7 @@ if (isset($_SESSION["user_id"])) {
 
             if ($result) {
                 if (mysqli_num_rows($result) == 0) {
-                    header("Location: /beatsvault/signup-success");
+                    header("Location: /signup-success");
                 } else {
                 }
             } else {
@@ -36,7 +36,7 @@ if (isset($_SESSION["user_id"])) {
     }
 
 } else {
-    header("Location: /beatsvault/login");
+    header("Location: /login");
 }
 
 ?>
@@ -76,8 +76,6 @@ if (isset($_SESSION["user_id"])) {
     <select name="sort" class="sort-feed">
         <!-- <option selected hidden>Sort By</option> -->
         <option selected value="newest">Newest</option>
-        <option value="asc">Title (asc)</option>
-        <option value="desc">Title (desc)</option>
         <option value="oldest">Oldest</option>
     </select>
     <div class="btn option-btns">

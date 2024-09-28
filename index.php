@@ -15,7 +15,7 @@ if (isset($_SESSION["user_id"]) && ($now - $_SESSION["start"]) < $_SESSION["dura
 
     if ($result) {
         if (mysqli_num_rows($result) == 0) {
-            header("Location: /beatsvault/login");
+            header("Location: /login");
         } else {
             $sql = "SELECT * FROM all_users
             WHERE id = {$_SESSION["user_id"]} AND signup_complete = 1";
@@ -25,7 +25,7 @@ if (isset($_SESSION["user_id"]) && ($now - $_SESSION["start"]) < $_SESSION["dura
 
             if ($result) {
                 if (mysqli_num_rows($result) == 0) {
-                    header("Location: /beatsvault/signup-success");
+                    header("Location: /signup-success");
                 } else {
                 }
             } else {
@@ -42,7 +42,7 @@ if (isset($_SESSION["user_id"]) && ($now - $_SESSION["start"]) < $_SESSION["dura
     unset($_SESSION["username"]);
     unset($_SESSION["start"]);
     unset($_SESSION["duration"]);
-    header("Location: /beatsvault/login");
+    header("Location: /login");
 }
 
 ?>

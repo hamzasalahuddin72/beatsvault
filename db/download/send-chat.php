@@ -10,8 +10,6 @@ $response = array(
     'message' => 'Something is wrong'
 );
 
-
-
 echo json_encode($response);
 
 ?>

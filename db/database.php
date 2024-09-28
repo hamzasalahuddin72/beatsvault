@@ -1,9 +1,9 @@
 <?php
 
 $host = "localhost";
-$db = "hs902_beatsvault_users";
-$dbuser = "hs902_hamzasalahuddin";
-$dbpassword = "j1Wsm]JYw*nB";
+$db = "beatsvault_users";
+$dbuser = "root";
+$dbpassword = "";
 
 $mysqli = new mysqli(hostname: $host,
                     database: $db,

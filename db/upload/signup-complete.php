@@ -33,7 +33,7 @@ if (!$stmt->prepare($sql)) {
 
 $stmt->bind_param(
     "isssssssiss",
-    $_SESSION["user_id"],
+    $user_id,
     $accType,
     $gender,
     $pending,

@@ -24,7 +24,7 @@ export function playTrack(id) {
     if (songIndex != id) {
         songIndex = id;
         // audio.currentTime = 0;
-        audio.src = "db/" + trackList[id].file_url.substring(3)
+        audio.src = "db/" + trackList[id].audio_url.substring(3)
     }
     else {
         if (pausedAt == audio.currentTime) {

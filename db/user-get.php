@@ -4,7 +4,7 @@ session_start();
 
 $user_id = $_SESSION['user_id'];
 
-$mysqli = require "database.php";
+$mysqli = require "./database.php";
 
 $sql = "SELECT au.username, ud.acc_type, au.follower_count, ud.profile_pic_url 
         FROM all_users au, user_data ud

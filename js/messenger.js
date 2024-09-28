@@ -18,10 +18,11 @@ export function allMsgs() {
         dataType: 'json',
         success: function (data) {
             current_user = data[1];
-            console.log(data)
             if (data[0].length > 0) {
+                // data[0].reverse();
+                    // data[0][i][0]["chats"].reverse();
                 for (let i = 0; i < data[0].length; i++) {
-                    data[0][i][0]["chats"].reverse();
+                    // data[0][i][0]["chats"].reverse();
                     setTimeout(() => {
                         $(".message-list").append(`
                     <div class="container-row msg-conversation-card" data="` + data[0][i][0]["user_id"] + `">
@@ -29,11 +30,11 @@ export function allMsgs() {
                     <div class="sub-container msg-conversation-overview">
                     <div class="msg-sub-overview">
                     <span class="container-ln msg-to-from-user">
-                    <a href="/beatsvault/user?user=` + data[0][i][0]["chats"][0].username + `" class="profile-href">` + data[0][i][0]["chats"][0].username + `</a>
+                    <a href="/user?user=` + data[0][i][0]["chats"][0].username + `" class="profile-href">` + data[0][i][0]["chats"][0].username + `</a>
                     </span>
                     <span class="msg-last-span msg-last-span-`+ data[0][i][0]["user_id"] + `">` + data[0][i][0]["chats"][0].message + `</span>
                     </div>
-                    <span class="msg-time-received msg-date-`+ i + `"></span>
+                    <span class="msg-time-received msg-date-`+ i +`"></span>
                     </div>
                     </div>
                     `)
@@ -51,6 +52,7 @@ export function allMsgs() {
                 setTimeout(() => {
                     $("#no-msgs-banner").hide();
                 }, 500);
+                console.log(data);
             } else {
                 setTimeout(() => {
                     $("#no-msgs-banner").show();
@@ -147,7 +149,7 @@ function fetchChat(to_user) {
         dataType: 'json',
         success: function (data) {
             data[0].reverse();
-            console.log(data)
+            // console.log(data)
             $(".chat-container-body").empty();
             if (data[0][0].seen != 9) {
                 last_message_id = data[0][0].id;

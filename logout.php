@@ -9,6 +9,6 @@ unset($_SESSION["username"]);
 unset($_SESSION["start"]);
 unset($_SESSION["duration"]);
 
-header("Location: /beatsvault/login");
+header("Location: /login");
 
 ?>

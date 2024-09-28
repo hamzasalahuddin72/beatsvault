@@ -1,15 +1,15 @@
 <header>
-    <div class="logo"><a class="nav-link" href="/beatsvault/index"></a></div>
+    <div class="logo"><a class="nav-link" href="/"></a></div>
     <div class="navbtns">
         <?php if (isset($user)): ?>
-            <!-- <a class="nav-link" href="/beatsvault/beats">
+            <!-- <a class="nav-link" href="/beats">
                 Beats
             </a>
-            <a class="nav-link" href="/beatsvault/resources">
+            <a class="nav-link" href="/resources">
                 Resources
             </a> -->
             <div class="nav-link-dropdown">
-                <!-- <a class="nav-link" id="account-nav-link1" href="/beatsvault/user?user=<?= $_SESSION["username"] ?>"> -->
+                <!-- <a class="nav-link" id="account-nav-link1" href="/user?user=<?= $_SESSION["username"] ?>"> -->
                 <a id="account-nav-link1">
                     <?= $_SESSION["username"] ?>
 
@@ -28,29 +28,29 @@
                     }
                     ?>
                 </a>
-                <a class="nav-link" id="account-nav-link2" href="/beatsvault/user?user=<?= $_SESSION["username"] ?>">
+                <a class="nav-link" id="account-nav-link2" href="/user?user=<?= $_SESSION["username"] ?>">
                     <div class="icon-mask" id="account-btn" draggable="false"></div>
                     Account
                 </a>
-                <a class="nav-link" id="account-nav-link3" href="/beatsvault/account">
+                <a class="nav-link" id="account-nav-link3" href="/account">
                     <div class="icon-mask" id="vault-btn" draggable="false"></div>
                     My Vault
                 </a>
-                <a class="nav-link" id="account-nav-link4" href="/beatsvault/settings">
+                <a class="nav-link" id="account-nav-link4" href="/settings">
                     <div class="icon-mask" id="settings-btn" src="css/misc/img/black-icons/settings.png" draggable="false"></div>
                     Settings
                 </a>
-                <a href="/beatsvault/logout" class="nav-link" id="account-nav-link5">
+                <a href="/logout" class="nav-link" id="account-nav-link5">
                     <div class="icon-mask" id="logout-btn" src="css/misc/img/black-icons/logout.png" draggable="false"></div>
                     Log Out
                 </a>
             </div>
-        <?php elseif ($_SERVER['REQUEST_URI'] == '/index'): ?>
-            <a class="nav-link" href="/beatsvault/login">
+        <?php elseif ($_SERVER['REQUEST_URI'] == '/'): ?>
+            <a class="nav-link" href="/login">
                 Log In
             </a>
         <?php elseif (isset($_SESSION["signup-incomplete"])): ?>
-            <a href="/beatsvault/logout" class="nav-link" style="gap: 10px;">
+            <a href="/logout" class="nav-link" style="gap: 10px;">
                 Log Out
                 <div class="icon-mask" id="logout-btn" src="css/misc/img/black-icons/logout.png" draggable="false"></div>
             </a>

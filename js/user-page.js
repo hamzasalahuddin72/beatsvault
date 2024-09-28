@@ -18,20 +18,20 @@ export function userProfile(url) {
         },
         success: function (data) {
             console.log(data)
-            document.title = data[0][0].username + " - BEATSVAULT";
-            this_user = data[0][0].username
+            this_user = data[0].username
+            document.title = this_user + " - BEATSVAULT";
             $(".lb-user-page").css("display", "flex");
             aa_wrapper.load(`user.php`)
             setTimeout(() => {
-                $(".sel-type").html(data[0][0].acc_type)
-                $(".sel-type").addClass("sel-" + data[0][0].acc_type)
-                $("#sel-username").html(data[0][0].username)
-                $("#sel-country").addClass("flag-icon-" + data[0][0].country)
-                $("#profile-wrapper").css("background-image", "url('db/" + data[0][0].profile_cover_url.substring(3) + "')")
+                $(".sel-type").html(data[0].acc_type)
+                $(".sel-type").addClass("sel-" + data[0].acc_type)
+                $("#sel-username").html(data[0].username)
+                $("#sel-country").addClass("flag-icon-" + data[0].country)
+                $("#profile-wrapper").css("background-image", "url('db/" + data[0].profile_cover_url.substring(3) + "')")
 
-                getUserGenres(data[0][0].genres)
+                getUserGenres(data[0].genres)
 
-                if (data[0][1] == "current_user") {
+                if (data[0].status == "current_user") {
 
                     $("#pp-update-label").append(`
                     <div id="profile-pic-frame">
@@ -41,7 +41,7 @@ export function userProfile(url) {
                     <span class="tooltip">Update profile picture</span>
                     `)
 
-                    $("#profile-pic-frame").css("background-image", "url('db/" + data[0][0].profile_pic_url.substring(3) + "')")
+                    $("#profile-pic-frame").css("background-image", "url('db/" + data[0].profile_pic_url.substring(3) + "')")
 
                     $("#pp-bg-update-label").append(`
                     Update profile cover
@@ -108,7 +108,7 @@ export function userProfile(url) {
                     <div id="profile-pic-frame">
                     </div>
                     `)
-                    $("#profile-pic-frame").css("background-image", "url('db/" + data[0][0].profile_pic_url.substring(3) + "')")
+                    $("#profile-pic-frame").css("background-image", "url('db/" + data[0].profile_pic_url.substring(3) + "')")
 
                     $(".user-message-btn").click(function () {
                         if (messagePopup == false) {
@@ -125,7 +125,7 @@ export function userProfile(url) {
                         }
 
                         $(".short-message-send-btn").click(function (e) {
-                            sendMsg(data[0][0].id, $(".short-message-input").val(), "short")
+                            sendMsg(data[0].id, $(".short-message-input").val(), "short")
                             setTimeout(() => {
                                 if (status == 1) {
                                     messagePopup = false;
@@ -147,7 +147,7 @@ export function userProfile(url) {
 
                     $(".user-follow-btn").click(function () {
                         $.ajax({
-                            url: 'db/user-actions.php?action=' + $(this).attr("action") + '&to_user=' + data[0][0].id,
+                            url: 'db/user-actions.php?action=' + $(this).attr("action") + '&to_user=' + data[0].id,
                             method: 'POST',
                             dataType: 'json',
                             success: function (data) {
@@ -170,7 +170,7 @@ export function userProfile(url) {
                         return false;
                     });
 
-                    if (data[0][1] == "is_followed") { // is a follower
+                    if (data[0].status == "is_followed") { // is a follower
                         $(".user-follow-btn").addClass("is-following")
                         $(".user-follow-btn").html("Following")
                         $(".user-follow-btn").attr("action", "unfollow")
@@ -182,7 +182,7 @@ export function userProfile(url) {
                             appendFeed(data[1], "newest", ".user-profile-feed")
                         }
                     } else {
-                        if (data[0][0].public == 0) { // private account
+                        if (data[0].public == 0) { // private account
                             $(".tracklist-options").css("display", "none")
                             $(".user-profile-feed").append("The vault is locked 🔒")
                         } else { // public account

@@ -6,7 +6,6 @@ if (isset($_POST['submit'])) {
     $username = $_POST['username'];
     $email = $_POST['email'];
     $password = $_POST['password'];
-    $signupComplete = 0;
 
     $emptyFirstname = false;
     $emptyLastname = false;
@@ -15,8 +14,6 @@ if (isset($_POST['submit'])) {
     $emptyPassword = false;
     $emailInvalid = false;
     $passwordInvalid = false;
-
-    $dirName = "user-directories";
 
     if (empty($firstname)) {
         echo "<label class='error-message'>First name is required</label>";
@@ -40,59 +37,62 @@ if (isset($_POST['submit'])) {
         echo "<label class='error-message'>Invalid password</label>";
         $passwordInvalid = true;
     } else {
-        /*-----------insert data to table---------*/
-
-        $encrypt = password_hash($password, PASSWORD_DEFAULT);
-
         $mysqli = require "../database.php";
-
-        $sql = "INSERT INTO all_users (firstname, lastname, username, email, password_hash, signup_complete) VALUES (?, ?, ?, ?, ?, ?)";
-
-        $stmt = $mysqli->stmt_init();
-
-        if (!$stmt->prepare($sql)) {
-            die("SQL error: " . $mysqli->error);
-        }
-
-        $stmt->bind_param(
-            "sssssi",
-            $firstname,
-            $lastname,
-            $username,
-            $email,
-            $encrypt,
-            $signupComplete
-        );
-
         $select = mysqli_query($mysqli, "SELECT * FROM all_users WHERE email = '" . $email . "'");
+
         if (mysqli_num_rows($select)) {
             exit('The email address is already used');
         } else {
+            /*-----------insert data to table---------*/
+            $encrypt = password_hash($password, PASSWORD_DEFAULT);
+            $sql = "INSERT INTO all_users (firstname, lastname, username, email, password_hash) VALUES (?, ?, ?, ?, ?)";
+
+            $stmt = $mysqli->stmt_init();
+
+            if (!$stmt->prepare($sql)) {
+                die("SQL error: " . $mysqli->error);
+            }
+
+            $stmt->bind_param(
+                "sssss",
+                $firstname,
+                $lastname,
+                $username,
+                $email,
+                $encrypt,
+            );
             if ($stmt->execute()) {
-                $select = sprintf("SELECT * FROM all_users
-                WHERE email = '%s'",
-                    $mysqli->real_escape_string($email)
-                );
-                $result = $mysqli->query($select);
+                $select = $mysqli->prepare("SELECT * FROM all_users WHERE email = ?");
+                $select->bind_param("s", $email);
+                $select->execute();
+                $result = $select->get_result();
                 $user = $result->fetch_assoc();
-                
+
+
                 session_start();
-                session_regenerate_id();
+                session_regenerate_id(true);  // true to delete the old session
                 $_SESSION["user_id"] = $user["id"];
                 $_SESSION["username"] = $user["username"];
                 $_SESSION["start"] = time();
-                $_SESSION["duration"] = 604800;
-                mkdir("../" . $dirName . "/" . $_SESSION["username"] . "/tracks", 0777, true);
-                mkdir("../" . $dirName . "/" . $_SESSION["username"] . "/userdata", 0777, true);
-                header("Refresh:1");
-                echo "<label class='error-message'>You have joined successfully</label>";
-                mysqli_close($mysqli);
-            } else {
-                if ($mysqli->errno === 1062) {
-                    die("Email already taken");
-                } else {
-                    die($mysqli->error . " " . $mysqli->errno);
+                $_SESSION["duration"] = 604800;  // 7 days in seconds
+
+                // Create directory paths
+                $tracksDir = "../user-directories/" . $_SESSION["username"] . "/tracks";
+                $userdataDir = "../user-directories/" . $_SESSION["username"] . "/userdata";
+
+                // Create directories with proper permissions
+                if (!mkdir($tracksDir, 0755, true)) {
+                    echo "Failed to create directory: $tracksDir";
                 }
+                if (!mkdir($userdataDir, 0777, true)) {
+                    echo "Failed to create directory: $userdataDir";
+                }
+
+                echo "<label class='error-message'>You have joined successfully</label>";
+                header("Refresh:1");
+
+                $stmt->close();
+                $mysqli->close();
             }
         }
     }

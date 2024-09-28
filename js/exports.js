@@ -10,7 +10,8 @@ export function homeFeedUpdate() {
         'title',
         'genre',
         'beat_desc',
-        'file_url',
+        'audio_id',
+        'audio_url',
         'cover_url',
         'profile_cover_url',
         'profile_pic_url'];
@@ -42,74 +43,124 @@ export function appendFeed(data, sort, div) {
     $(div).empty();
 
     if (sort == "newest") {
-        data.reverse();
-        // data.sort((a, b) => b.id.localeCompare(a.id))
+        for (let i = data.length - 1; i >= 0; i--) {
+            let audio_id = data[i].audio_id - 1;
+            $(div).append(` 
+    <div class="feed-content-card-wrapper">
+    <div class="feed-content-user-span">
+    <img class="user-profile-pic-small" src="db/`+ data[audio_id].profile_pic_url.substring(3) + `"
+        draggable="false" alt="">
+    <span class="feed-user-tag"><a href="/user?user=`+ data[audio_id].username + `" class="profile-href">` +
+                data[audio_id].username + `</a>&nbsp;uploaded</span>
+    </div>
+    <div class="feed-content-card">
+    <div class="feed-album-cover" style="background-image: url('db/` + data[audio_id].cover_url.substring(3) + `');">
+    <div class="play-popup --play-popup`+ i + `">
+        <div class="icon-mask play-btn --play-btn`+ audio_id + `" track="` + audio_id + `" draggable="false"></div>
+        <div class="icon-mask pause-btn --pause-btn`+ audio_id + `" draggable="false"></div>
+    </div>
+    </div>
+    <div class="feed-sub-card">
+    <div class="feed-meta-card">
+        <div class="track-metadata">
+            <div class="tm track-title">`+ data[audio_id].title + `</div>
+            <div class="tm track-genre">
+                <a class="tm link-btns track-genre-text" href="#">`+ data[audio_id].genre + `</a>
+            </div>
+            <div class="tm track-desc">`+ data[audio_id].beat_desc + `</div>
+        </div>
+    </div>
+    <div class="user-options">
+        <div class="feed-options">
+            <div class="btn">
+                <div class="icon-mask" id="like-btn"></div>
+                <span class="tooltip">Like</span>
+            </div>
+            <div class="btn">
+                <div class="icon-mask" id="comment-btn"></div>
+                <span class="tooltip">Comment</span>
+            </div>
+        </div>
+        <div class="sale-options">
+            <div class="btn">
+                <div class="icon-mask" id="buy-beat" draggable="false"></div>
+                <span class="tooltip">Buy</span>
+            </div>
+            <div class="btn">
+                <div class="icon-mask" id="add-cart" draggable="false"></div>
+                <span class="tooltip">Add to cart</span>
+            </div>
+            <div class="btn">
+                <div class="icon-mask" id="get-midi" draggable="false"></div>
+                <span class="tooltip">Get MIDI</span>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>`)
+        }
     } else if (sort == "oldest") {
-        data.reverse()
-    } else if (sort == "asc") {
-        data.sort((a, b) => a.title.localeCompare(b.title))
-    } else if (sort == "desc") {
-        data.sort((a, b) => b.title.localeCompare(a.title))
+        for (let i = 0; i < data.length; i++) {
+            let audio_id = data[i].audio_id - 1;
+            $(div).append(` 
+    <div class="feed-content-card-wrapper">
+    <div class="feed-content-user-span">
+    <img class="user-profile-pic-small" src="db/`+ data[audio_id].profile_pic_url.substring(3) + `"
+        draggable="false" alt="">
+    <span class="feed-user-tag"><a href="/user?user=`+ data[audio_id].username + `" class="profile-href">` +
+                data[audio_id].username + `</a>&nbsp;uploaded</span>
+    </div>
+    <div class="feed-content-card">
+    <div class="feed-album-cover" style="background-image: url('db/` + data[audio_id].cover_url.substring(3) + `');">
+    <div class="play-popup --play-popup`+ i + `">
+        <div class="icon-mask play-btn --play-btn`+ audio_id + `" track="` + audio_id + `" draggable="false"></div>
+        <div class="icon-mask pause-btn --pause-btn`+ audio_id + `" draggable="false"></div>
+    </div>
+    </div>
+    <div class="feed-sub-card">
+    <div class="feed-meta-card">
+        <div class="track-metadata">
+            <div class="tm track-title">`+ data[audio_id].title + `</div>
+            <div class="tm track-genre">
+                <a class="tm link-btns track-genre-text" href="#">`+ data[audio_id].genre + `</a>
+            </div>
+            <div class="tm track-desc">`+ data[audio_id].beat_desc + `</div>
+        </div>
+    </div>
+    <div class="user-options">
+        <div class="feed-options">
+            <div class="btn">
+                <div class="icon-mask" id="like-btn"></div>
+                <span class="tooltip">Like</span>
+            </div>
+            <div class="btn">
+                <div class="icon-mask" id="comment-btn"></div>
+                <span class="tooltip">Comment</span>
+            </div>
+        </div>
+        <div class="sale-options">
+            <div class="btn">
+                <div class="icon-mask" id="buy-beat" draggable="false"></div>
+                <span class="tooltip">Buy</span>
+            </div>
+            <div class="btn">
+                <div class="icon-mask" id="add-cart" draggable="false"></div>
+                <span class="tooltip">Add to cart</span>
+            </div>
+            <div class="btn">
+                <div class="icon-mask" id="get-midi" draggable="false"></div>
+                <span class="tooltip">Get MIDI</span>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>`)
+        }
     }
 
     trackList = data;
-
-    for (let i = 0; i < data.length; i++) {
-        $(div).append(` 
-<div class="feed-content-card-wrapper">
-<div class="feed-content-user-span">
-<img class="user-profile-pic-small" src="db/`+ data[i].profile_pic_url.substring(3) + `"
-    draggable="false" alt="">
-<span class="feed-user-tag"><a href="/beatsvault/user?user=`+ data[i].username + `" class="profile-href">` +
-            data[i].username + `</a>&nbsp;uploaded</span>
-</div>
-<div class="feed-content-card">
-<div class="feed-album-cover" style="background-image: url('db/` + data[i].cover_url.substring(3) + `');">
-<div class="play-popup --play-popup`+ i + `">
-    <div class="icon-mask play-btn --play-btn`+ i + `" track="` + i + `" draggable="false"></div>
-    <div class="icon-mask pause-btn --pause-btn`+ i + `" draggable="false"></div>
-</div>
-</div>
-<div class="feed-sub-card">
-<div class="feed-meta-card">
-    <div class="track-metadata">
-        <div class="tm track-title">`+ data[i].title + `</div>
-        <div class="tm track-genre">
-            <a class="tm link-btns track-genre-text" href="#">`+ data[i].genre + `</a>
-        </div>
-        <div class="tm track-desc">`+ data[i].beat_desc + `</div>
-    </div>
-</div>
-<div class="user-options">
-    <div class="feed-options">
-        <div class="btn">
-            <div class="icon-mask" id="like-btn"></div>
-            <span class="tooltip">Like</span>
-        </div>
-        <div class="btn">
-            <div class="icon-mask" id="comment-btn"></div>
-            <span class="tooltip">Comment</span>
-        </div>
-    </div>
-    <div class="sale-options">
-        <div class="btn">
-            <div class="icon-mask" id="buy-beat" draggable="false"></div>
-            <span class="tooltip">Buy</span>
-        </div>
-        <div class="btn">
-            <div class="icon-mask" id="add-cart" draggable="false"></div>
-            <span class="tooltip">Add to cart</span>
-        </div>
-        <div class="btn">
-            <div class="icon-mask" id="get-midi" draggable="false"></div>
-            <span class="tooltip">Get MIDI</span>
-        </div>
-    </div>
-</div>
-</div>
-</div>
-</div>`)
-    }
 
     $(".play-btn").click((e) => {
         playTrack($(e.target).attr('track'))
@@ -147,28 +198,43 @@ export function appendFeed(data, sort, div) {
 }
 
 export function userTrackIndex() {
-    //initialize a song when user opens the website
+    // Initialize a song when the user opens the website
+    console.log(trackList);
+
     if (trackList.length > 0) {
-        audio.src = "db/" + trackList[0].file_url.substring(3);
-        audio.addEventListener('loadedmetadata', function () {
-            var minutes = "0" + Math.floor((audio.duration - audio.currentTime) / 60);
-            var seconds = "0" + Math.floor((audio.duration - audio.currentTime) - minutes * 60);
-            var mmss = minutes.substr(-2) + ":" + seconds.substr(-2);
-            // durationSpan.style.display = "flex";
-            durationSpan.innerHTML = mmss;
-        })
-        $(".master-play-btn").click(() => {
-            // playTrack(0);
+        // Set the first track as the source
+        const firstTrack = trackList[0];
+        audio.src = "db/" + firstTrack.audio_url.substring(3);
+
+        // Ensure only one 'loadedmetadata' event listener is added
+        audio.removeEventListener('loadedmetadata', updateTrackDuration); // Clean previous listener
+        audio.addEventListener('loadedmetadata', updateTrackDuration);
+
+        // Update the duration once metadata is loaded
+        function updateTrackDuration() {
+            const minutes = Math.floor(audio.duration / 60).toString().padStart(2, '0');
+            const seconds = Math.floor(audio.duration % 60).toString().padStart(2, '0');
+            durationSpan.innerHTML = `${minutes}:${seconds}`;
+        }
+
+        // Detach any previously attached event to avoid duplicates
+        $(".master-play-btn").off('click').on('click', () => {
             if (audio.paused) {
                 playTrack(0);
             } else {
                 pauseTrack();
             }
-        })
-        getCurrentTrackDetails(0)
-        popupMessage("welcome to BEATSVAULT")
+        });
+
+        // Fetch and display track details
+        getCurrentTrackDetails(0);
+
+        // Show welcome message
+        popupMessage("Welcome to BEATSVAULT");
     } else {
-        // userTracksEmpty = true;
+        // Handle empty trackList scenario, if necessary
+        console.log("No tracks found in the trackList");
+        popupMessage("No tracks found. Please upload or follow more users.");
     }
 }
 
@@ -176,6 +242,8 @@ export function downloadUserTracks() {
     $(".upload-tracks").css("display", "none");
     $(".recent-tracks").empty();
     var array = [
+        'audio_id',
+        'audio_url',
         'cover_url',
         'title',
         'genre',
@@ -190,6 +258,7 @@ export function downloadUserTracks() {
             $(".lb-recent-tracks").css("display", "flex");
         },
         success: function (data) {
+            console.log(data);
             if (data.length == 0) {
                 console.log("No user tracks found")
                 $(".tracklist-options").css("display", "none");
@@ -199,15 +268,15 @@ export function downloadUserTracks() {
                 </div>
                 `);
             } else {
-                data.reverse();
                 for (var i = 0; i < data.length; i++) {
+                    let audio_id = data[i].audio_id - 1;
                     $(".recent-tracks").append(` <div class="album-cover">
-        <div class="album-cover-img" id="album-cover`+ data[i].id + `"
-            style="background-image: url('db/` + data[i].cover_url.substring(3) + `')"></div>
+        <div class="album-cover-img" id="album-cover`+ audio_id + `"
+            style="background-image: url('db/` + data[audio_id].cover_url.substring(3) + `')"></div>
         <div class="play-popup">
-            <div class="icon-mask play-btn --play-btn`+ i + `" track="` + i + `" draggable="false"></div>
-            <div class="icon-mask pause-btn --pause-btn`+ i + `" draggable="false"></div>
-            <span onclick="showMetadata()">`+ data[i].title + `</span
+            <div class="icon-mask play-btn --play-btn`+ audio_id + `" track="` + audio_id + `" draggable="false"></div>
+            <div class="icon-mask pause-btn --pause-btn`+ audio_id + `" draggable="false"></div>
+            <span onclick="showMetadata()">`+ data[audio_id].title + `</span
         </div>
         </div>
         `);
@@ -249,7 +318,7 @@ export function updateUserList() {
                 for (var i = 0; i < data.length; i++) {
                     $(".user-list-body").append(`
                 <div class="container-row">
-                <a class="profile-href" href="/beatsvault/user?user=`+ data[i].username + `"></a>
+                <a class="profile-href" href="/user?user=`+ data[i].username + `"></a>
                 <img class="user-profile-pic" src="db/`+ data[i].profile_pic_url.substring(3) + `" alt="">
                 <div class="sub-container">
                     <div class="user-overview">

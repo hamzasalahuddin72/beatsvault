@@ -8,12 +8,12 @@ $mysqli = require "../database.php";
 
 $columns = $_GET["array"];
 
-$sql = "SELECT username, ut.*, ud.* FROM all_users au, user_data ud, user_tracks ut
+$sql = "SELECT $columns FROM all_users au, user_data ud, audio_metadata am
         WHERE (au.id = $user_id
         OR au.id IN (SELECT followed_id FROM user_follow WHERE follower_id = $user_id))
         AND ud.id = au.id
-        AND ut.user_id = ud.id
-        AND ud.id = ut.user_id";
+        AND am.user_id = ud.id
+        AND ud.id = am.user_id";
 
 $result = mysqli_query($mysqli, $sql);
 

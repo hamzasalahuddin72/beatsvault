@@ -12,7 +12,7 @@ $response = array(
     'message' => 'Something is wrong',
 );
 
-$mysqli = require "database.php";
+$mysqli = require "./database.php";
 
 if ($_GET["action"] == "isTyping") {
 
@@ -25,7 +25,7 @@ if ($_GET["action"] == "isTyping") {
     }
 
     $stmt->bind_param(
-        "iis",
+        "iii",
         $user_id,
         $_GET["to_user"],
         $seen
@@ -92,7 +92,7 @@ if ($_GET["action"] == "msgSeen") {
 if ($_GET["action"] == "msgSend") {
     $message = $_GET["message"];
 
-    $sql = "DELETE FROM user_chat WHERE from_user = '$user_id' AND to_user = {$_GET["to_user"]} AND seen = '$seen'";
+    $sql = "DELETE FROM user_chat WHERE from_user = $user_id AND to_user = {$_GET["to_user"]} AND seen = $seen";
 
     if (mysqli_query($mysqli, $sql)) {
 
@@ -122,7 +122,8 @@ if ($_GET["action"] == "msgSend") {
                         $_GET["to_user"],
                         $message,
                         date("Y-m-d H:i:s", strtotime("+1 hours")),
-                        date_default_timezone_get()
+                        // date("Y-m-d H:i:s"),
+                        $timezone
                     );
 
                     if ($stmt->execute()) {

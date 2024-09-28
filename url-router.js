@@ -34,31 +34,31 @@ const urlRoutes = {
         title: "404 | " + urlPageTitle,
         description: "Page not found",
     },
-    "/beatsvault/index": {
+    "/": {
         name: "home",
         template: "home.php",
         title: "Welcome to " + urlPageTitle,
         description: "This is the home page",
     },
-    "/beatsvault/beats": {
+    "/beats": {
         name: "beats",
         template: "beats.php",
         title: "Beats - " + urlPageTitle,
         description: "This is the beats page",
     },
-    "/beatsvault/user": {
+    "/user": {
         name: "user",
         template: "user.php",
         title: "User - " + urlPageTitle,
         description: "This is the user page",
     },
-    "/beatsvault/settings": {
+    "/settings": {
         name: "settings",
         template: "settings.php",
         title: "Account settings - " + urlPageTitle,
         description: "This is the settings page",
     },
-    "/beatsvault/logout": {
+    "/logout": {
         name: "logout",
         template: "logout.php",
         title: "Logging out - " + urlPageTitle,
@@ -144,7 +144,7 @@ urlLocationHandler();
 
 window.onbeforeunload = function () {
     window.setTimeout(function () {
-        window.location = '/beatsvault/index';
+        window.location = '/';
     }, 0);
     window.onbeforeunload = null; // necessary to prevent infinite loop, that kills your browser 
 }
