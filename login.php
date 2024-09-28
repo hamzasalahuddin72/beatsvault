@@ -218,9 +218,9 @@ if (isset($_SESSION["user_id"]) && ($now - $_SESSION["start"]) < $_SESSION["dura
                 </p>
             </div>
             <form class="user-form login-form" method="POST">
-                <label>Username</label>
+                <label>Email address</label>
                 <br>
-                <input name="email" id="email" type="text" placeholder="Username / Email address">
+                <input name="email" id="email" type="text" placeholder="Email address">
                 <br>
                 <label>Password</label>
                 <br>

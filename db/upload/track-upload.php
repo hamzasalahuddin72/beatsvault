@@ -14,8 +14,8 @@ $tempo = $_POST["beat-tempo"] ?? '';
 $key = $_POST["beat-key"] ?? '';
 $desc = $_POST["beat-desc"] ?? '';
 $beat_name_var = $_POST["beat-name-var"] ?? '';
-$profile_username = $_SESSION["username"];
-$current_user_id = $_SESSION["user_id"];
+$username = $_SESSION["username"];
+$user_id = $_SESSION["user_id"];
 $file = $_FILES["audio-file"];
 $cover = $_FILES["beat-cover"];
 
@@ -66,9 +66,9 @@ if ($action == "verify") {
 } elseif ($action == "upload") {
 
     // Create user directories if they do not exist
-    $trackDir = "$dirName/$profile_username/tracks/$beat_name_var";
+    $trackDir = "$dirName/$username/tracks/$beat_name_var";
     if (!file_exists($trackDir)) {
-        if (!mkdir($trackDir, 0777, true)) {
+        if (!mkdir($trackDir, 0700, true)) {
             $response['message'] = "Failed to create directory: $trackDir";
             echo json_encode($response);
             exit;
@@ -140,7 +140,7 @@ if ($action == "verify") {
 
     $stmt->bind_param(
         "ississssss",
-        $current_user_id, $title, $genre, $tempo, $key, $desc, $audio_destination, $cover_destination, $datetime, $timezone
+        $user_id, $title, $genre, $tempo, $key, $desc, $audio_destination, $cover_destination, $datetime, $timezone
     );
 
     if ($stmt->execute()) {
