@@ -4,8 +4,8 @@ session_start();
 
 $profile_pic = $_FILES["update-profile-cover"];
 
-$user_id = $_SESSION["user_id"];
-$username = $_SESSION["username"];
+$current_user_id = $_SESSION["user_id"];
+$profile_username = $_SESSION["username"];
 $dirName = "user-directories";
 
 $response = array(
@@ -38,7 +38,7 @@ $response['fileurl'] = $file_url;
 
 $mysqli = require "../database.php";
 
-$sql = "UPDATE user_data SET profile_cover_url = '$file_url'  WHERE id = {$user_id}";
+$sql = "UPDATE user_data SET profile_cover_url = '$file_url'  WHERE id = {$current_user_id}";
 
 $stmt = $mysqli->prepare($sql);
 $stmt->execute();

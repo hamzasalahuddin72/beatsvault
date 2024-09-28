@@ -2,7 +2,7 @@
 
 session_start();
 
-$user_id = $_SESSION['user_id'];
+$current_user_id = $_SESSION['user_id'];
 
 $mysqli = require "../database.php";
 
@@ -12,7 +12,7 @@ $sql = "SELECT $columns
         FROM
         user_data ud,
         audio_metadata am
-        WHERE ud.id = $user_id
+        WHERE ud.id = $current_user_id
         AND am.user_id = ud.id";
 
 $result = mysqli_query($mysqli, $sql);

@@ -3,7 +3,7 @@
 if (isset($_POST['submit'])) {
     $firstname = $_POST['firstname'];
     $lastname = $_POST['lastname'];
-    $username = $_POST['username'];
+    $profile_username = $_POST['username'];
     $email = $_POST['email'];
     $password = $_POST['password'];
 
@@ -21,7 +21,7 @@ if (isset($_POST['submit'])) {
     } else if (empty($lastname)) {
         echo "<label class='error-message'>Last name is required</label>";
         $emptyLastname = true;
-    } else if (empty($username)) {
+    } else if (empty($profile_username)) {
         echo "<label class='error-message'>Username is required</label>";
         $emptyUsername = true;
     } else if (empty($email)) {
@@ -57,7 +57,7 @@ if (isset($_POST['submit'])) {
                 "sssss",
                 $firstname,
                 $lastname,
-                $username,
+                $profile_username,
                 $email,
                 $encrypt,
             );

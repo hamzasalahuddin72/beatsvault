@@ -2,7 +2,7 @@
 
 session_start();
 
-$user_id = $_SESSION['user_id'];
+$current_user_id = $_SESSION['user_id'];
 
 $mysqli = require "../database.php";
 
@@ -16,7 +16,7 @@ $sql = "SELECT af.file_url, au.username, ud.profile_pic_url, am.title, am.genre,
         cover_files cf
         tracklists t
         WHERE 
-        au.id = $user_id
+        au.id = $current_user_id
         AND ud.id = au.id
         AND ud.id = af.user_id
         AND af.id = am.id 

@@ -2,7 +2,7 @@
 
 session_start();
 
-$user_id = $_SESSION["user_id"];
+$current_user_id = $_SESSION["user_id"];
 
 $response = array(
     'status' => 0,
@@ -13,8 +13,8 @@ $mysqli = require "../database.php";
 
 $sql = "SELECT username, firstname, lastname, email, public, user_data.*
         FROM all_users, user_data
-        WHERE all_users.id = $user_id
-        AND user_data.id = $user_id";
+        WHERE all_users.id = $current_user_id
+        AND user_data.id = $current_user_id";
 
 $result = $mysqli->query($sql);
 

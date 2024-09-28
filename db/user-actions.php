@@ -2,7 +2,7 @@
 
 session_start();
 
-$user_id = $_SESSION["user_id"];
+$current_user_id = $_SESSION["user_id"];
 $date = date("Y-m-d H:i:s", strtotime("+1 hours"));
 $timezone = date_default_timezone_get();
 $seen = 9;
@@ -26,7 +26,7 @@ if ($_GET["action"] == "isTyping") {
 
     $stmt->bind_param(
         "iii",
-        $user_id,
+        $current_user_id,
         $_GET["to_user"],
         $seen
     );
@@ -43,7 +43,7 @@ if ($_GET["action"] == "isTyping") {
 }
 
 if ($_GET["action"] == "notTyping") {
-    $sql = "DELETE FROM user_chat WHERE from_user = '$user_id' AND to_user = {$_GET["to_user"]} AND seen = '$seen'";
+    $sql = "DELETE FROM user_chat WHERE from_user = '$current_user_id' AND to_user = {$_GET["to_user"]} AND seen = '$seen'";
 
     if (mysqli_query($mysqli, $sql)) {
 
@@ -73,7 +73,7 @@ if ($_GET["action"] == "notTyping") {
 if ($_GET["action"] == "msgSeen") {
     $sql = "UPDATE user_chat SET seen = 1 
             WHERE from_user = {$_GET["to_user"]}
-            AND to_user = '$user_id'
+            AND to_user = '$current_user_id'
             AND seen = 0";
 
     $stmt = $mysqli->prepare($sql);
@@ -92,7 +92,7 @@ if ($_GET["action"] == "msgSeen") {
 if ($_GET["action"] == "msgSend") {
     $message = $_GET["message"];
 
-    $sql = "DELETE FROM user_chat WHERE from_user = $user_id AND to_user = {$_GET["to_user"]} AND seen = $seen";
+    $sql = "DELETE FROM user_chat WHERE from_user = $current_user_id AND to_user = {$_GET["to_user"]} AND seen = $seen";
 
     if (mysqli_query($mysqli, $sql)) {
 
@@ -157,7 +157,7 @@ if ($_GET["action"] == 'follow') {
 
     $stmt->bind_param(
         "iiss",
-        $user_id,
+        $current_user_id,
         $_GET["to_user"],
         $date,
         $timezone
@@ -170,7 +170,7 @@ if ($_GET["action"] == 'follow') {
         $stmt = $mysqli->prepare($sql);
         
         if ($stmt->execute()) {
-            $sql = "UPDATE all_users SET following_count = following_count + 1 WHERE id = $user_id";
+            $sql = "UPDATE all_users SET following_count = following_count + 1 WHERE id = $current_user_id";
             
             $stmt = $mysqli->prepare($sql);
 
@@ -199,7 +199,7 @@ if ($_GET["action"] == 'follow') {
 }
 
 if ($_GET["action"] == 'unfollow') {
-    $sql = "DELETE FROM user_follow WHERE follower_id = $user_id AND followed_id = {$_GET["to_user"]}";
+    $sql = "DELETE FROM user_follow WHERE follower_id = $current_user_id AND followed_id = {$_GET["to_user"]}";
 
     if (mysqli_query($mysqli, $sql)) {
 
@@ -209,7 +209,7 @@ if ($_GET["action"] == 'unfollow') {
 
         if ($stmt->execute()) {
 
-            $sql = "UPDATE all_users SET following_count = following_count - 1 WHERE id = $user_id";
+            $sql = "UPDATE all_users SET following_count = following_count - 1 WHERE id = $current_user_id";
 
             $stmt = $mysqli->prepare($sql);
 
@@ -235,7 +235,7 @@ if ($_GET["action"] == 'unfollow') {
 }
 
 if ($_GET["action"] == 'public-mode') {
-    $sql = "UPDATE all_users SET public = {$_GET["public"]} WHERE id = $user_id";
+    $sql = "UPDATE all_users SET public = {$_GET["public"]} WHERE id = $current_user_id";
 
     $stmt = $mysqli->prepare($sql);
 

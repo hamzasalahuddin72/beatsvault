@@ -2,7 +2,7 @@
 
 session_start();
 
-$user_id = $_SESSION["user_id"];
+$current_user_id = $_SESSION["user_id"];
 $accType = $_POST["accType"];
 $gender = $_POST["gender"];
 $country = $_POST["country"];
@@ -33,7 +33,7 @@ if (!$stmt->prepare($sql)) {
 
 $stmt->bind_param(
     "isssssssiss",
-    $user_id,
+    $current_user_id,
     $accType,
     $gender,
     $pending,
@@ -47,7 +47,7 @@ $stmt->bind_param(
 );
 
 if ($stmt->execute()) {
-    $sql2 = "UPDATE all_users SET signup_complete = 1 WHERE id = $user_id";
+    $sql2 = "UPDATE all_users SET signup_complete = 1 WHERE id = $current_user_id";
 
     $stmt2 = $mysqli->prepare($sql2);
     $stmt2->execute();
