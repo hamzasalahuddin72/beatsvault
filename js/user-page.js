@@ -100,7 +100,6 @@ export function userProfile(url) {
                             reader.readAsDataURL(file);
                         }
                     });
-
                     appendFeed(data[1], "newest", ".user-profile-feed")
 
                 } else {

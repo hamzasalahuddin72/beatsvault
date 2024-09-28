@@ -28,10 +28,10 @@ $result1 = $sql1->get_result();
 
 // Prepared statement to check if the current user is following the profile user
 $sql2 = $mysqli->prepare("
-    SELECT followed_id 
+    SELECT followed_id
     FROM user_follow 
     WHERE follower_id = ? 
-    AND followed_id = (SELECT id FROM all_users WHERE username = ?)
+    AND followed_id = (SELECT id FROM all_users WHERE username = 'Aijazqt<3')
 ");
 $sql2->bind_param('is', $user_id, $username);
 $sql2->execute();
