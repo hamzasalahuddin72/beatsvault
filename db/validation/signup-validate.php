@@ -81,7 +81,7 @@ if (isset($_POST['submit'])) {
                 $userdataDir = "../user-directories/" . $_SESSION["username"] . "/userdata";
 
                 // Create directories with proper permissions
-                if (!mkdir($tracksDir, 0755, true)) {
+                if (!mkdir($tracksDir, 0777, true)) {
                     echo "Failed to create directory: $tracksDir";
                 }
                 if (!mkdir($userdataDir, 0777, true)) {

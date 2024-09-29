@@ -41,6 +41,7 @@ export function homeFeedUpdate() {
 
 export function appendFeed(data, sort, div) {
     $(div).empty();
+    trackList = data;
 
     if (sort == "newest") {
         for (let i = data.length - 1; i >= 0; i--) {
@@ -159,8 +160,6 @@ export function appendFeed(data, sort, div) {
     </div>`)
         }
     }
-
-    trackList = data;
 
     $(".play-btn").click((e) => {
         playTrack($(e.target).attr('track'))

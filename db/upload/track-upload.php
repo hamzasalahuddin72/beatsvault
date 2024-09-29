@@ -68,7 +68,7 @@ if ($action == "verify") {
     // Create user directories if they do not exist
     $trackDir = "$dirName/$username/tracks/$beat_name_var";
     if (!file_exists($trackDir)) {
-        if (!mkdir($trackDir, 0700, true)) {
+        if (!mkdir($trackDir, 0777, true)) {
             $response['message'] = "Failed to create directory: $trackDir";
             echo json_encode($response);
             exit;
